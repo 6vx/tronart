@@ -16,11 +16,11 @@
       <div class="contents">
         <div class="flex-col">
 
-            <div class="flex-auto"><a href="/">home</a></div>
-            <div class="flex-auto"><a href="/about">about</a></div>
-            <div class="flex-auto"><a href="/gallery">gallery</a></div>
-            <div class="flex-auto"><a href="/blog">blog</a></div>
-            <div class="flex-auto"><a href="/contact">contact</a></div>
+            <div class="flex-auto" on:click={closeAllModals}><a href="/">home</a></div>
+            <div class="flex-auto" on:click={closeAllModals}><a href="/about">about</a></div>
+            <div class="flex-auto" on:click={closeAllModals}><a href="/gallery">gallery</a></div>
+            <div class="flex-auto" on:click={closeAllModals}><a href="/blog">blog</a></div>
+            <div class="flex-auto" on:click={closeAllModals}><a href="/contact">contact</a></div>
 
         </div>
       </div>
