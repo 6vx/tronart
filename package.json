@@ -14,5 +14,8 @@
 		"svelte-hamburgers": "^4.0.1",
 		"vite": "^4.3.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-modals": "^1.2.1"
+	}
 }

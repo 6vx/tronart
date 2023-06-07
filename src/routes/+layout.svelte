@@ -4,13 +4,28 @@
     import { Hamburger } from 'svelte-hamburgers';
 
     let open;
+
+    import { Modals, closeModal, openModal, modals } from 'svelte-modals'
+	import { fade } from 'svelte/transition'
+	import Modal from '../components/Modal.svelte'
+    import Menu from '../components/Menu.svelte'
+	
+	function handleOpen() {
+		openModal(Menu, { 
+			title: `Alert #${$modals.length + 1}`, 
+			message: "This is a menu",
+			onOpenAnother: () => {
+				handleOpen()
+			}
+		})
+	}
 </script>
 
 <!-- start with header, extra large font Bonnie Godin -->
 <header>
     <h1>Bonnie Godin</h1>
 </header>
-<div class="hamburger">
+<div class="hamburger" on:click={handleOpen}>
     <Hamburger type="spin" --color="#b579a0" />
 </div>
 
@@ -31,6 +46,19 @@
 </nav> -->
 
 <br>
+
+<button on:click={handleOpen}>
+	open
+</button>
+
+<Modals>
+  <div
+    slot="backdrop"
+    class="backdrop"
+		transition:fade
+    on:click={closeModal}
+  />
+</Modals>
 
 <slot></slot>
 
@@ -138,4 +166,13 @@
         z-index: 1;
 
     }
+
+    .backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.50)
+  }
 </style>
