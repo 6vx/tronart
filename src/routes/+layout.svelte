@@ -66,7 +66,6 @@
     }
     header {
         text-align: center;
-        font-size: 2rem;
         margin-bottom: 0;
         padding-bottom: 0; 
         margin-top: 0;       
@@ -105,9 +104,6 @@
         margin-top: 0;
         padding-bottom: 0;
         /* black outline 1px */
-        text-shadow: 1px 1px 0 #000,
-                    -1px 1px 0 #000,
-                    1px -1px 0 #000,
-                    -1px -1px 0 #000;
+
     }
 </style>
