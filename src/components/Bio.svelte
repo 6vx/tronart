@@ -25,17 +25,22 @@
 <style>
     /* the flex should be 75% of the view height */
     .flex {
-        height: 75vh;
+        min-height: 50vh;
+        /* height: 75vh; */
+        margin: 10px;
+        padding: 10px;
     }
 
     .bio {
-        height: 50%;
+        height: 100%;
         /* minimum height of 100px */
         /* min-height: 100px; */
         /* max width of 40% */
         /* max-width: 50%; */
         /* crop it like a circle */
         border-radius: 5%;
+        /* padding: 10px;
+        margin: 10px; */
     }
     /* make these flex-autos side by side */
     .flex-auto {
@@ -43,7 +48,7 @@
     }
     /* vertically center the blurb */
     .blurb {
-        height: 50%;
+        /* height: 50%; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -53,9 +58,9 @@
     }
 
     .bio {
-    background-image: url('/tron2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+        background-image: url('/tron2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 </style>
