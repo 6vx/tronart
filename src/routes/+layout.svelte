@@ -11,14 +11,18 @@
     import Menu from '../components/Menu.svelte'
 	
 	function handleOpen() {
-		openModal(Menu, { 
+        if (!open) { 
+            openModal(Menu, { 
 			title: `Alert #${$modals.length + 1}`, 
 			message: "This is a menu",
 			onOpenAnother: () => {
 				handleOpen()
 			}
-		})
+
+        })
 	}
+}
+
 </script>
 
 <!-- start with header, extra large font Bonnie Godin -->
@@ -29,12 +33,12 @@
     <Hamburger type="spin" --color="#b579a0" />
 </div>
 
-{#if open}
-    <div class="overmenu">
-        <h1>menu</h1>
-        <p>where am I?</p>
-    </div>
-{/if}
+// {#if open}
+//     <div class="overmenu">
+//         <h1>menu</h1>
+//         <p>where am I?</p>
+//     </div>
+// {/if}
 
 
 <!-- <nav class="flex">
