@@ -1,5 +1,10 @@
 h1 {
     color: rgb(201, 4, 201);
+    font-family: Playfair Display, 'Playfair Display', serif;
+}
+
+html {
+    font-family: Playfair Display
 }
 
 /* mobile friendly flex layout */
@@ -16,7 +21,7 @@ h1 {
     margin-left: auto;
     left: 0px;
     right: 0px;
-    /* max-width: 600px; */
+    /* max-width: 1000px; */
 }
 .flex-col {
     display: flex;
@@ -25,9 +30,18 @@ h1 {
     left: 0px;
     right: 0px;
     flex-direction: column;
-    /* max-width: 600px; */
+    /* max-width: 1000px; */
 }
 .flex-auto {
     flex: auto;
     justify-content: space-around;  
+}
+
+/* div with class splash will contain a full width image /tron1.png and always be 30% height */
+.splash {
+    background-image: url('/tron1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
 }
