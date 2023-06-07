@@ -88,8 +88,6 @@
         text-transform: uppercase;
         /* bold */
         font-weight: bold;
-        /* no underline */
-        text-decoration: none;
        
     }
   

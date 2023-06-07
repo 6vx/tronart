@@ -5,7 +5,7 @@
 
     let open;
 
-    import { Modals, closeModal, openModal, modals } from 'svelte-modals'
+    import { Modals, closeModal, closeAllModals, openModal, modals } from 'svelte-modals'
 	import { fade } from 'svelte/transition'
 	import Modal from '../components/Modal.svelte'
     import Menu from '../components/Menu.svelte'
@@ -49,8 +49,8 @@
   <div
     slot="backdrop"
     class="backdrop"
-		transition:fade
-    on:click={closeModal}
+	transition:fade
+    on:click={closeAllModals}
   />
 </Modals>
 
