@@ -8,3 +8,26 @@ h1 {
         flex-direction: column;
     }
 }
+.flex {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0px;
+    right: 0px;
+    /* max-width: 600px; */
+}
+.flex-col {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0px;
+    right: 0px;
+    flex-direction: column;
+    /* max-width: 600px; */
+}
+.flex-auto {
+    flex: auto;
+    justify-content: space-around;  
+}
