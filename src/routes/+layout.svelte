@@ -29,16 +29,10 @@
 <header>
     <h1>Bonnie Godin</h1>
 </header>
+
 <div class="hamburger" on:click={handleOpen}>
     <Hamburger type="spin" --color="#b579a0" />
 </div>
-
-// {#if open}
-//     <div class="overmenu">
-//         <h1>menu</h1>
-//         <p>where am I?</p>
-//     </div>
-// {/if}
 
 
 <!-- <nav class="flex">
@@ -50,10 +44,6 @@
 </nav> -->
 
 <br>
-
-<button on:click={handleOpen}>
-	open
-</button>
 
 <Modals>
   <div
