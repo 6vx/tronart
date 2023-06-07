@@ -104,10 +104,10 @@
         margin-bottom: 0;
         margin-top: 0;
         padding-bottom: 0;
-        /* strong black outline */
-        text-shadow: 2px 2px 0px #000,
-                    -2px 2px 0px #000,
-                    2px -2px 0px #000,
-                    -2px -2px 0px #000;
+        /* black outline 1px */
+        text-shadow: 1px 1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px -1px 0 #000;
     }
 </style>

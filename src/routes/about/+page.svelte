@@ -1,9 +1,19 @@
-<h1>About</h1>
+<script>
+    import Bio from '../../components/Bio.svelte'
+</script>
 
-<h2>Bonnie Godin</h2>
+<div class="flex">
+    <div class="flex-auto">
+        <h1>About</h1>
+        <Bio />
+    </div>
+</div>
+
+
+<!-- <h2>Bonnie Godin</h2>
 
 <p>Part time artist, part time paramedic.</p>
 
 <p>An artist as far back as she can remember, historically focusing on graphite pencil and charcoal, finally begun her journey with oil painting beginning early 2022.</p>
 
-<p>Check out the portfolio section to view student assignments and passion projects.</p>
+<p>Check out the portfolio section to view student assignments and passion projects.</p> -->

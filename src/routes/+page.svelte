@@ -2,12 +2,14 @@
 <!-- needs gallery and about links -->
 <script>
     import Splash from '../components/Splash.svelte'
+    import Bio from '../components/Bio.svelte'
+    import ArtDisplay from '../components/ArtDisplay.svelte'
 </script>
 
 <Splash />
 
 <div class="flex">
-
+    <br>
     <div class="flex-auto">
         <p>
             Hey! I'm Bonnie. I'm an emerging Canadian artist from Calgary, AB 
@@ -16,9 +18,18 @@
             in the face of their own stories.
         </p>
     </div>
-
-
+    <br>
 </div>
+
+<ArtDisplay />
+
+<Bio />
+
+<Splash />
+
+<ArtDisplay />
+
+
 
 <style>
     

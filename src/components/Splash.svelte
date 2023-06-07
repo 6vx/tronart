@@ -5,3 +5,14 @@
 <div class="splash">
 
 </div>
+
+<style>
+    .splash {
+    background-image: url('/tron1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    /* border-radius: 10px; */
+}
+</style>
