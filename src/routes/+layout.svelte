@@ -1,21 +1,37 @@
 <script>
     import '../app.css'
+
+    import { Hamburger } from 'svelte-hamburgers';
+
+    let open;
 </script>
 
 <!-- start with header, extra large font Bonnie Godin -->
 <header>
     <h1>Bonnie Godin</h1>
 </header>
+<div class="hamburger">
+    <Hamburger type="spin" --color="#b579a0" />
+</div>
 
-<nav class="flex">
+{#if open}
+    <div class="overmenu">
+        <h1>menu</h1>
+        <p>where am I?</p>
+    </div>
+{/if}
+
+
+<!-- <nav class="flex">
     <div class="flex-auto"><a href="/">home</a></div>
     <div class="flex-auto"><a href="/about">about</a></div>
     <div class="flex-auto"><a href="/gallery">gallery</a></div>
     <div class="flex-auto"><a href="/blog">blog</a></div>
     <div class="flex-auto"><a href="/contact">contact</a></div>
-</nav>
+</nav> -->
 
 <br>
+
 <slot></slot>
 
 <br>
@@ -41,13 +57,13 @@
     <!-- I want a basic nav here to go between HOME ABOUT GALLERY and CONTACT -->
    <br>
    
-    <nav class="flex">
+    <!-- <nav class="flex">
         <div class="flex-auto"><a href="/">home</a></div>
         <div class="flex-auto"><a href="/about">about</a></div>
         <div class="flex-auto"><a href="/gallery">gallery</a></div>
         <div class="flex-auto"><a href="/blog">blog</a></div>
         <div class="flex-auto"><a href="/contact">contact</a></div>
-    </nav>
+    </nav> -->
 
 </bottombar>
 
@@ -68,7 +84,7 @@
         text-align: center;
         margin-bottom: 0;
         padding-bottom: 0; 
-        margin-top: 0;       
+        margin-top: 15px;       
     }
     br {
         margin-bottom: 1rem;
@@ -104,6 +120,22 @@
         margin-top: 0;
         padding-bottom: 0;
         /* black outline 1px */
+    }
+    .hamburger {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        z-index: 2;
+    }
+    .overmenu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        background-color: rgba(255, 255, 255, 0);        
+        z-index: 1;
 
     }
 </style>
