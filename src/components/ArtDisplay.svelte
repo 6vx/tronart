@@ -14,6 +14,8 @@
     .flex {
         display: flex;
         justify-content: space-evenly;
+        /* min-height 30% view width */
+        min-height: 50vw;
     }
     .flex-auto {
         flex: 1;
@@ -22,24 +24,24 @@
         
     }
     .showcase1 {
-        width: 400px;
-        height: 500px;
+        min-width: 40px;
+        min-height: 50px;
         background-image: url('/art1.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     .showcase2 {
-        width: 400px;
-        height: 500px;
+        min-width: 40px;
+        min-height: 50px;
         background-image: url('/art2.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     .showcase3 {
-        min-width: 200px;
-        min-height: 250px;
+        min-width: 40px;
+        min-height: 50px;
         background-image: url('/art3.png');
         background-repeat: no-repeat;
         background-size: cover;
