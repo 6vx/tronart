@@ -14,5 +14,7 @@
     background-position: center;
     height: 35vh;
     /* border-radius: 10px; */
+    margin: 0px;
+    padding: 0px;
 }
 </style>
