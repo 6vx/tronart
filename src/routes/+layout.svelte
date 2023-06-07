@@ -106,7 +106,8 @@
         text-align: center;
         margin-bottom: 0;
         padding-bottom: 0; 
-        margin-top: 15px;       
+        margin-top: 15px;   
+        font-size: 1.2rem;    
     }
     br {
         margin-bottom: 1rem;
