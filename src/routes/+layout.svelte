@@ -53,13 +53,7 @@
 
 
 <style>
-    hr {
 
-        /* make it bolder */
-        border-top: 3px solid black;
-        /* round off the sides */
-        border-radius: 5px;
-    }
     /* make the nav flex horizontally and space evenly */
     ul {
         display: flex;
@@ -72,7 +66,7 @@
     }
     header {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 0;
         padding-bottom: 0; 
         margin-top: 0;       
