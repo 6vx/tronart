@@ -9,13 +9,17 @@
     </div>
     <div class="flex-auto twothird blurb">
        <div>
-        <p>Part time artist, part time paramedic.</p>
+        <h1>Welcome To My Gallery</h1>
 
-        <p> An artist as far back as she can remember, historically 
-            focusing on graphite pencil and charcoal, finally begun her journey with oil 
-            painting beginning early 2022.</p>  
+        <h2>I'm Bonnie Godin - Professional Artist & First Responder</h2>
+        
+        <p>
+            What I know for sure about my journey of being an artist is that it was never a choice. 
+            I dedicate time, space and energy toward painting because I've 
+            known the other side - to stifle your creativity is only to stifle magic in your life.
+        </p>
             
-        <p> Check out the portfolio section to view student assignments and passion projects.</p>
+        <p></p>
        </div>
     </div>
 </div>
