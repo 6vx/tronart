@@ -5,9 +5,12 @@
     export let isOpen
     export let title
     export let message
-      export let onOpenAnother
+    export let onOpenAnother
+
+
       
-      let stackIndex = $modals.length
+    let stackIndex = $modals.length
+    
   </script>
   
   {#if isOpen}
@@ -88,6 +91,7 @@
         text-transform: uppercase;
         /* bold */
         font-weight: bold;
+        text-decoration: none;
        
     }
   

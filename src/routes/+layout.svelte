@@ -20,18 +20,24 @@
 			}
 
         })
+        if (open) {
+            closeAllModals()
+        }
 	}
 }
+
+
 
 </script>
 
 <!-- start with header, extra large font Bonnie Godin -->
 <header>
-    <h1>Bonnie Godin</h1>
+    <!-- putting a full width image as background here sig.jpg -->
+    <img src="sig.jpg" alt="Bonnie Godin" width="100%" height="auto">
 </header>
 
 <div class="hamburger" on:click={handleOpen}>
-    <Hamburger type="spin" --color="#b579a0" />
+    <Hamburger type="none" --color="#b579a0" />
 </div>
 
 
