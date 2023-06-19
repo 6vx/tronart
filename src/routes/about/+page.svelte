@@ -4,7 +4,7 @@
 
 <div class="flex">
     <div class="flex-auto">
-        <h1>About</h1>
+        <!-- <h1>About</h1> -->
         <Bio />
     </div>
 </div>
