@@ -181,7 +181,8 @@
     /* for the nav items - less space around each and a border around each */
     nav a {
         padding: 0.5rem;  
-        color: black      
+        color: black  
+        text-decoration: none;    
     }
     h1 {
         margin-bottom: 0;
