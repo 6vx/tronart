@@ -5,7 +5,9 @@
         <p>Interested in a commission? Something for your home, a pet portrait commission or a gift for a friend? Or maybe just a general question? Drop a line!</p>
 
         <!-- this will be a link to send an email to bonnie -->
-        <h2>Get in touch with me</h2>
+        <a href="mailto:bonniegodin@gmail.com">
+        <p>Get in touch with me.</p>
+        </a>
 
         <h3>How does the commission process work?</h3>
 
@@ -20,9 +22,22 @@
 </div>
 
 <style>
+    .flex {
+        /* center the content horizontally */
+        display: flex;
+        justify-content: center;
+        
+    }
     .flex-auto {
         flex: 1 1 auto;
         margin: 20px;
         padding: 20px;
+        max-width: 1000px;
+    }
+    a {
+        color: black;
+    }
+    a > p  {
+        font-size: larger;
     }
 </style>

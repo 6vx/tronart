@@ -34,7 +34,6 @@
     .bio {
         height: 100%;
         /* when it's tall the top and bottom could be cropped a bit */
-        overflow: hidden;
 
         /* minimum height of 100px */
         /* min-height: 100px; */
@@ -43,7 +42,7 @@
         /* crop it like a circle */
         border-radius: 5%;
         /* make it a bit smaller than the container */
-        transform: scale(0.8);
+        transform: scale(0.9);
 
         /* padding: 10px;
         margin: 10px; */

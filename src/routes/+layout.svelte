@@ -221,5 +221,13 @@
 
   .menu {
     color: #C05F2B;
+    max-width: 1000px;
   }
+
+
+  /* .header max-width should be reasonable on desktop */
+    header {
+        max-width: 1250px;
+        margin: 0 auto;
+    }
 </style>
