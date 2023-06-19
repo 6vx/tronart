@@ -208,7 +208,7 @@
     }
     /* flex-auto should be equal width */
     .sig {
-    background-image: url('/sig.jpg');
+    background-image: url('/sig.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
