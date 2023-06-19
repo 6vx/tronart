@@ -178,11 +178,13 @@
         text-transform: uppercase;
         text-decoration: none;
         font-weight: bold;
+        
     }
     /* for the nav items - less space around each and a border around each */
     nav a {
         padding: 0.5rem;  
-        text-decoration: none;    
+        text-decoration: none;
+        color: #b579a0;
     }
     h1 {
         margin-bottom: 0;

@@ -33,19 +33,29 @@
 
     .bio {
         height: 100%;
+        /* when it's tall the top and bottom could be cropped a bit */
+        overflow: hidden;
+
         /* minimum height of 100px */
         /* min-height: 100px; */
         /* max width of 40% */
         /* max-width: 50%; */
         /* crop it like a circle */
         border-radius: 5%;
+        /* make it a bit smaller than the container */
+        transform: scale(0.8);
+
         /* padding: 10px;
         margin: 10px; */
     }
     /* make these flex-autos side by side */
     .third {
         /* this flex is 1/3rd width */
-        flex: 1 1 33%;
+        flex: 1 1 25%;
+    }
+    .twothird {
+        /* this flex is 2/3rds width */
+        flex: 1 1 55%;
     }
     /* vertically center the blurb */
     .blurb {
