@@ -68,7 +68,7 @@
         justify-content: center;
         /* extra padding and in italics */
         padding: 0 1rem;
-        font-style: italic;
+        /* font-style: italic; */
     }
 
     .bio {
