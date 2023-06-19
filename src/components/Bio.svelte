@@ -127,8 +127,11 @@
         /* make it a bit smaller than the container */
         /* padding: 10px;
         margin: 10px; */
-        width: 100vw;
+        width: 100%;
         margin: 0;
         padding: 0;
+    }
+    .bio2 {
+        overflow: hidden;
     }
 </style>
