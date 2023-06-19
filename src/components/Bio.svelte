@@ -16,9 +16,9 @@
 
     {#if !showMobile}
     <div class="flex2">
-        <!-- image for bonnie tron2 -->
         <img src="/tron2.png" alt="tron2" class="imageVersion" />
     </div>
+
     <div class="flex2">
         <div class="flex-auto blurb">
             <div>
