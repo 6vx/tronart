@@ -1,5 +1,7 @@
 <script>
     import '../app.css'
+    import { onMount } from 'svelte';
+
 
     import { Hamburger } from 'svelte-hamburgers';
 
@@ -26,6 +28,21 @@
 	}
 }
 
+// detect the screen size and make available to the page
+
+// let width = window.innerWidth;
+
+// lets try this instead :
+// 
+  let showMenu = false;
+  onMount(() => {
+    const mediaQuery = window.matchMedia('(min-width: 768px)');
+    showMenu = mediaQuery.matches;
+    mediaQuery.addEventListener('change', (e) => {
+      showMenu = e.matches;
+    });
+  });
+
 
 
 </script>
@@ -36,9 +53,31 @@
     <img src="sig.jpg" alt="Bonnie Godin" width="100%" height="auto">
 </header>
 
-<div class="hamburger" on:click={handleOpen}>
-    <Hamburger type="none" --color="#b579a0" />
-</div>
+<!-- if the site is on mobile size screen the hamburger should be showing -->
+
+<!-- {#if (width < 600)}
+    <div class="hamburger" on:click={handleOpen}>
+        <Hamburger type="none" --color="#b579a0" />
+    </div>
+{/if} -->
+
+<!-- if the site is on a desktop size screen the regular menu should be showing -->
+
+{#if (showMenu)}
+    <nav class="flex menu">
+        <div class="flex-auto"><a href="/">home</a></div>
+        <div class="flex-auto"><a href="/about">about</a></div>
+        <div class="flex-auto"><a href="/gallery">gallery</a></div>
+        <div class="flex-auto"><a href="/blog">blog</a></div>
+        <div class="flex-auto"><a href="/contact">contact</a></div>
+    </nav>
+<!-- else show the hamburger -->
+{:else}
+    <div class="hamburger" on:click={handleOpen}>
+        <Hamburger type="none" --color="#b579a0" />
+    </div>
+{/if}
+
 
 
 <!-- <nav class="flex">
@@ -137,7 +176,7 @@
         font-size: 0.8rem;
         /* all caps */
         text-transform: uppercase;
-        font-weight: bold;
+        text-decoration: none;
     }
     /* for the nav items - less space around each and a border around each */
     nav a {
@@ -175,5 +214,9 @@
     right: 0;
     left: 0;
     background: rgba(0,0,0,0.50)
+  }
+
+  .menu {
+    color: #C05F2B;
   }
 </style>

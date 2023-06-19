@@ -17,3 +17,11 @@
         <p>I sure do and love to do them!</p>
     </div>
 </div>
+
+<style>
+    .flex-auto {
+        flex: 1 1 auto;
+        margin: 20px;
+        padding: 20px;
+    }
+</style>

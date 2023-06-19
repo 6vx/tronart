@@ -1,6 +1,8 @@
 h1 {
     color: #b579a0;
     font-family: Playfair Display, 'Playfair Display', serif;
+    /* underline */
+    text-decoration: underline;
 }
 
 html {
