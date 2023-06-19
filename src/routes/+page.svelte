@@ -12,10 +12,12 @@
     <br>
     <div class="flex-auto">
         <p>
-            Hey! I'm Bonnie. I'm an emerging Canadian artist from Calgary, AB 
-            with a passion for vibrant colours. My hope is that my art will 
-            connect me with those who are choosing creativity and a light heart 
-            in the face of their own stories.
+            An artist first and paramedic second, Bonnie creates vibrant art that reflects reverence for the bright side 
+            of life.
+        </p>
+        <p>
+            She believes all of life's pains and hardships have mirror images of beauty and joy. She channels these images 
+            onto her canvas through bright colours, dynamic brush strokes and uplifting subject matter.
         </p>
     </div>
     <br>
@@ -32,7 +34,8 @@
 
 
 <style>
+    p {
+        margin: 10px 30px 10px 30px;
+    }
     
-
-
 </style>
