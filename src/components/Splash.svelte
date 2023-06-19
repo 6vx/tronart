@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 35vh;
+    height: 55vh;
     /* border-radius: 10px; */
     margin: 0px;
     padding: 0px;
