@@ -77,9 +77,6 @@
         <Hamburger type="none" --color="#b579a0" />
     </div>
 {/if}
-
-
-
 <!-- <nav class="flex">
     <div class="flex-auto"><a href="/">home</a></div>
     <div class="flex-auto"><a href="/about">about</a></div>
@@ -87,9 +84,6 @@
     <div class="flex-auto"><a href="/blog">blog</a></div>
     <div class="flex-auto"><a href="/contact">contact</a></div>
 </nav> -->
-
-<br>
-
 <Modals>
   <div
     slot="backdrop"
@@ -186,30 +180,12 @@
         text-decoration: none;
         color: #b579a0;
     }
-    h1 {
-        margin-bottom: 0;
-        margin-top: 0;
-        padding-bottom: 0;
-        /* black outline 1px */
-    }
     .hamburger {
         position: absolute;
         top: 10px;
         right: 0;
         z-index: 2;
     }
-    .overmenu {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        /* background-color: rgba(0, 0, 0, 0.5); */
-        background-color: rgba(255, 255, 255, 0);        
-        z-index: 1;
-
-    }
-
     .backdrop {
     position: fixed;
     top: 0;
