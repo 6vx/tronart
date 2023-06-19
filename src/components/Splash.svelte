@@ -7,6 +7,7 @@
 </div>
 
 <style>
+    
     .splash {
     background-image: url('/tron1.png');
     background-repeat: no-repeat;

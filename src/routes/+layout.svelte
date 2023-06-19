@@ -49,8 +49,17 @@
 
 <!-- start with header, extra large font Bonnie Godin -->
 <header>
-    <!-- putting a full width image as background here sig.jpg -->
-    <img src="sig.jpg" alt="Bonnie Godin" width="100%" height="auto">
+    <div class="flex">
+        <div class="flex-auto"></div>
+        <div class="flex-auto sig"></div>
+        <div class="flex-auto">
+            {#if (!showMenu)}
+            <div class="hamburger" on:click={handleOpen}>
+                <Hamburger type="none" --color="#b579a0" />
+            </div>
+            {/if}
+        </div>
+    </div>
 </header>
 
 <!-- if the site is on mobile size screen the hamburger should be showing -->
@@ -71,11 +80,7 @@
         <div class="flex-auto"><a href="/blog">blog</a></div>
         <div class="flex-auto"><a href="/contact">contact</a></div>
     </nav>
-<!-- else show the hamburger -->
-{:else}
-    <div class="hamburger" on:click={handleOpen}>
-        <Hamburger type="none" --color="#b579a0" />
-    </div>
+
 {/if}
 <!-- <nav class="flex">
     <div class="flex-auto"><a href="/">home</a></div>
@@ -130,24 +135,6 @@
 
 
 <style>
-
-    /* make the nav flex horizontally and space evenly */
-    ul {
-        display: flex;
-        justify-content: space-evenly;
-        list-style: none;
-    }
-    br {
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
-    header {
-        text-align: center;
-        margin-bottom: 0;
-        padding-bottom: 0; 
-        margin-top: 15px;   
-        font-size: 1.2rem;    
-    }
     br {
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -172,19 +159,12 @@
         text-transform: uppercase;
         text-decoration: none;
         font-weight: bold;
-        
     }
     /* for the nav items - less space around each and a border around each */
     nav a {
         padding: 0.5rem;  
         text-decoration: none;
         color: #b579a0;
-    }
-    .hamburger {
-        position: absolute;
-        top: 10px;
-        right: 0;
-        z-index: 2;
     }
     .backdrop {
     position: fixed;
@@ -199,11 +179,37 @@
     color: #C05F2B;
     max-width: 1000px;
   }
-
-
   /* .header max-width should be reasonable on desktop */
     header {
         max-width: 1250px;
-        margin: 0 auto;
+        min-height: 100px;
+        margin: 0 0;
     }
+    /* all three flex-auto should be on same line */
+    .flex-auto  {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* flex-auto should be equal width */
+    .sig {
+    background-image: url('/sig.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 100px;
+    /* minimum width of 2/3rds view */
+    min-width: 66%;
+    margin: 0px;
+    padding: 0px;
+    }
+    /* hamburger needs vertical center */
+    .hamburger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+
 </style>

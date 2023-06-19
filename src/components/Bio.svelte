@@ -1,4 +1,13 @@
 <script>
+    // if mobile size screen set showMobile
+    let showMobile = false;
+    onMount(() => {
+        const mediaQuery = window.matchMedia('(min-width: 768px)');
+        showMobile = mediaQuery.matches;
+        mediaQuery.addEventListener('change', (e) => {
+        showMobile = e.matches;
+        });
+    });
 
 </script>
 
