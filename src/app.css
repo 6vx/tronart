@@ -12,11 +12,13 @@ html {
     color: #C05F2B;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 /* mobile friendly flex layout */
