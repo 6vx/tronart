@@ -3,11 +3,11 @@
 </script>
 
 <div class="flex">
-    <div class="flex-auto">
+    <div class="flex-auto third">
         <div class="bio">
         </div>
     </div>
-    <div class="flex-auto blurb">
+    <div class="flex-auto twothird blurb">
        <div>
         <p>Part time artist, part time paramedic.</p>
 
@@ -43,8 +43,9 @@
         margin: 10px; */
     }
     /* make these flex-autos side by side */
-    .flex-auto {
-        flex: 1;
+    .third {
+        /* this flex is 1/3rd width */
+        flex: 1 1 33%;
     }
     /* vertically center the blurb */
     .blurb {

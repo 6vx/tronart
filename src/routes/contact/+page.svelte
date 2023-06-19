@@ -4,6 +4,7 @@
 
         <p>Interested in a commission? Something for your home, a pet portrait commission or a gift for a friend? Or maybe just a general question? Drop a line!</p>
 
+        <!-- this will be a link to send an email to bonnie -->
         <h2>Get in touch with me</h2>
 
         <h3>How does the commission process work?</h3>

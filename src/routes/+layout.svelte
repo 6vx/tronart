@@ -177,11 +177,11 @@
         /* all caps */
         text-transform: uppercase;
         text-decoration: none;
+        font-weight: bold;
     }
     /* for the nav items - less space around each and a border around each */
     nav a {
         padding: 0.5rem;  
-        color: black  
         text-decoration: none;    
     }
     h1 {
