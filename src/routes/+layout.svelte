@@ -50,12 +50,20 @@
 <!-- start with header, extra large font Bonnie Godin -->
 <header>
     <div class="flex">
-        <div class="flex-auto"></div>
+        <div class="flex-auto1">
+            <div class="littleBox">
+                
+            </div>
+        </div>
         <div class="flex-auto sig"></div>
-        <div class="flex-auto">
+        <div class="flex-auto1">
             {#if (!showMenu)}
             <div class="hamburger" on:click={handleOpen}>
                 <Hamburger type="none" --color="#b579a0" />
+            </div>
+            {:else}
+            <div class="littleBox">
+                
             </div>
             {/if}
         </div>
@@ -184,9 +192,15 @@
         max-width: 1250px;
         min-height: 100px;
         margin: 0 0;
+        align-items: center;
     }
     /* all three flex-auto should be on same line */
     .flex-auto  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-auto1  {
         flex: 1;
         display: flex;
         justify-content: center;
@@ -210,6 +224,10 @@
         justify-content: center;
         align-items: center;
         height: 100px;
+    }
+    .littleBox {
+        min-height: 100px;
+        min-width: 100px;
     }
 
 </style>
