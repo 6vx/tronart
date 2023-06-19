@@ -8,7 +8,7 @@
 
 <Splash />
 
-<div class="flex">
+<!-- <div class="flex">
     <br>
     <div class="flex-auto">
         <p>
@@ -21,7 +21,7 @@
         </p>
     </div>
     <br>
-</div>
+</div> -->
 
 <ArtDisplay />
 
@@ -34,8 +34,8 @@
 
 
 <style>
-    p {
+    /* p {
         margin: 10px 30px 10px 30px;
-    }
+    } */
     
 </style>

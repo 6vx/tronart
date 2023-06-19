@@ -30,8 +30,9 @@
     }
     .flex-auto {
         flex: 1 1 auto;
-        margin: 20px;
-        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* padding: 20px; */
         max-width: 1000px;
     }
     a {
