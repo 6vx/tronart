@@ -1,4 +1,6 @@
 <script>
+    import { onMount } from 'svelte';
+
     // if mobile size screen set showMobile
     let showMobile = false;
     onMount(() => {
@@ -10,28 +12,57 @@
     });
 
 </script>
+<div class="bio2">
 
-<div class="flex">
-    <div class="flex-auto third">
-        <div class="bio">
+    {#if !showMobile}
+    <div class="flex2">
+        <!-- image for bonnie tron2 -->
+        <img src="/tron2.png" alt="tron2" class="imageVersion" />
+    </div>
+    <div class="flex2">
+        <div class="flex-auto blurb">
+            <div>
+                <h1>Welcome To My Gallery</h1>
+        
+                <h2>I'm Bonnie Godin - Professional Artist & First Responder</h2>
+                
+                <p>
+                    What I know for sure about my journey of being an artist is that it was never a choice. 
+                    I dedicate time, space and energy toward painting because I've 
+                    known the other side - to stifle your creativity is only to stifle magic in your life.
+                </p>
+                    
+                <p></p>
+            </div>
+            </div>
+    </div>
+    {:else}
+    <div class="flex">
+        <div class="flex-auto third">
+            <div class="bio">
+            </div>
+        </div>
+        <div class="flex-auto twothird blurb">
+           <div>
+            <h1>Welcome To My Gallery</h1>
+    
+            <h2>I'm Bonnie Godin - Professional Artist & First Responder</h2>
+            
+            <p>
+                What I know for sure about my journey of being an artist is that it was never a choice. 
+                I dedicate time, space and energy toward painting because I've 
+                known the other side - to stifle your creativity is only to stifle magic in your life.
+            </p>
+                
+            <p></p>
+           </div>
         </div>
     </div>
-    <div class="flex-auto twothird blurb">
-       <div>
-        <h1>Welcome To My Gallery</h1>
+    {/if}
 
-        <h2>I'm Bonnie Godin - Professional Artist & First Responder</h2>
-        
-        <p>
-            What I know for sure about my journey of being an artist is that it was never a choice. 
-            I dedicate time, space and energy toward painting because I've 
-            known the other side - to stifle your creativity is only to stifle magic in your life.
-        </p>
-            
-        <p></p>
-       </div>
-    </div>
+
 </div>
+
 
 
 
@@ -43,6 +74,12 @@
         margin: 10px;
         padding: 10px;
     }
+    .flex2 {
+        min-height: 33vh;
+        margin: 10px;
+        padding: 10px;
+    }
+
 
     .bio {
         height: 100%;
@@ -85,5 +122,13 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+    .imageVersion {
+        /* make it a bit smaller than the container */
+        /* padding: 10px;
+        margin: 10px; */
+        width: 100vw;
+        margin: 0;
+        padding: 0;
     }
 </style>
