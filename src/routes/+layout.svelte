@@ -189,7 +189,6 @@
   }
   /* .header max-width should be reasonable on desktop */
     header {
-        max-width: 1250px;
         min-height: 100px;
         margin: 0 0;
         align-items: center;
@@ -226,8 +225,8 @@
         height: 100px;
     }
     .littleBox {
-        min-height: 100px;
-        min-width: 100px;
+        min-height: 10px;
+        min-width: 10px;
     }
 
 </style>
