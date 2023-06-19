@@ -130,6 +130,7 @@
         width: 100%;
         margin: 0;
         padding: 0;
+        border-radius: 5%;
     }
     .bio2 {
         overflow: hidden;
