@@ -3,35 +3,52 @@
 
     import { fade } from 'svelte/transition';
     import { onMount } from 'svelte';
-    import { tweened } from 'svelte/motion';
 
-    const opacity = tweened(0);
-
-    onMount(() => {
-        opacity.set(1);
-    });
-
-    const images = [
+    let index = 0;
+    let images = [
         '/tron1.jpg',
         '/tron2.jpg',
         '/tron3.jpg'
     ];
 
-    let index = 0;
+    let currentImage = 0;
 
-    function next() {
-        index = (index + 1) % images.length;
+    const nextImage = () => {
+        currentImage = (currentImage + 1) % images.length;
     }
 
-    $: image = images[index];
+    onMount(() => {
+        const interval = setInterval(() => {
+            nextImage();
+        }, 5000);
 
-    // execute next function every 4.5 seconds
-    setInterval(next, 4500);
+        return () => clearInterval(interval);
+    });
+
+    
+    
 </script>
 
 <div class="splash">
-    <img src={image} alt="tron" on:click={next} transition:fade />
+    {#if currentImage == 0}
+    <div class="image1" out:fade="{{duration:400}}" in:fade="{{delay:405, duration:700}}">
+        <img src={images[0]} alt="tron1" />
+    </div>
+    {/if}
+    {#if currentImage == 1}
+    <div class="image1" out:fade="{{duration:400}}" in:fade="{{delay:405, duration:700}}">
+        <img src={images[1]} alt="tron2" />
+    </div>
+    {/if}
+    {#if currentImage == 2}
+    <div class="image1" out:fade="{{duration:400}}" in:fade="{{delay:405, duration:700}}">
+        <img src={images[2]} alt="tron3" />
+    </div>
+    {/if}
 </div>
+
+
+
 
 <style>
 
@@ -55,6 +72,15 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    /* float image1 above the splash with the same height */
+    .image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 55vh;
+        width: 100%;
+        z-index: 1;
     }
 
 </style>
