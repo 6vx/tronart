@@ -6,6 +6,7 @@ h1 {
 }
 
 html {
+    
     font-family: Playfair Display;
     /* very light pink background color */
     background-color: #fbefe3;
@@ -13,6 +14,10 @@ html {
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
+    max-width: 1920px;
+    /* center everything inside */
+    margin: auto;
+    
 }
 
 body {
