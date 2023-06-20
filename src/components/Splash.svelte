@@ -27,7 +27,6 @@
 
     // execute next function every 4.5 seconds
     setInterval(next, 4500);
-
 </script>
 
 <div class="splash">
