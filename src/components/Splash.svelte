@@ -2,7 +2,7 @@
     // i want to cycle the splash between three images, and use a fade transition for it
     import { Carousel, CarouselTransition } from 'flowbite-svelte'
 
-    import { crossfade } from 'svelte/transition';
+    import { fade } from 'svelte/transition';
 
     let images = [
         {
@@ -46,18 +46,18 @@
   </div>
 
   {#if currentImage === 0}
-    <div class="splash2" style="background-image: url('/tron1.jpg');">
+    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/tron1.jpg');">
     </div>
 {/if}
 
 
 {#if currentImage === 1}
-    <div class="splash2" style="background-image: url('/tron2.jpg');">
+    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/tron2.jpg');">
     </div>
 {/if}
 
 {#if currentImage === 2}
-    <div class="splash2" style="background-image: url('/tron3.jpg');">
+    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/tron3.jpg');">
     </div>
 {/if}
 
