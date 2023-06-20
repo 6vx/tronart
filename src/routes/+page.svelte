@@ -27,11 +27,6 @@
 
 <Bio />
 
-<Splash />
-
-<ArtDisplay />
-
-
 
 <style>
     /* p {
