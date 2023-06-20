@@ -1,3 +1,8 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
 h1 {
     color: #b579a0;
     font-family: Playfair Display, 'Playfair Display', serif;
@@ -17,10 +22,11 @@ html {
     max-width: 1920px;
     /* center everything inside */
     margin: auto;
-    
+
 }
 
 body {
+    font-family: Playfair Display;
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
