@@ -30,8 +30,8 @@
             min-height: 30vw;
         }
         .flex-auto {
-            max-width: 200px;
-            max-height: 250px;
+            max-width: 500px;
+            /* max-height: 250px; */
         }
     }
 

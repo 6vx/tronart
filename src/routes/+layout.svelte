@@ -7,26 +7,13 @@
 
     let open;
 
+    let miniOpened = false;
+
     import { Modals, closeModal, closeAllModals, openModal, modals } from 'svelte-modals'
 	import { fade } from 'svelte/transition'
 	import Modal from '../components/Modal.svelte'
     import Menu from '../components/Menu.svelte'
 	
-	function handleOpen() {
-        if (!open) { 
-            openModal(Menu, { 
-			title: `Alert #${$modals.length + 1}`, 
-			message: "This is a menu",
-			onOpenAnother: () => {
-				handleOpen()
-			}
-
-        })
-        if (open) {
-            closeAllModals()
-        }
-	}
-}
 
 // detect the screen size and make available to the page
 
@@ -43,6 +30,10 @@
     });
   });
 
+  function handleMiniOpen () {
+    miniOpened = !miniOpened;
+  }
+
 
 
 </script>
@@ -58,7 +49,7 @@
         <div class="flex-auto sig"></div>
         <div class="flex-auto1">
             {#if (!showMenu)}
-            <div class="hamburger" on:click={handleOpen}>
+            <div class="hamburger" on:click={handleMiniOpen}>
                 <Hamburger type="none" --color="#b579a0" />
             </div>
             {:else}
@@ -97,14 +88,17 @@
     <div class="flex-auto"><a href="/blog">blog</a></div>
     <div class="flex-auto"><a href="/contact">contact</a></div>
 </nav> -->
-<Modals>
-  <div
-    slot="backdrop"
-    class="backdrop"
-	transition:fade
-    on:click={closeAllModals}
-  />
-</Modals>
+{#if miniOpened}
+<div class="fullWidthMenu" in:fade>
+    <nav class="flex-col menu">
+        <div class="flex-auto" on:click={handleMiniOpen}><a href="/">home</a></div>
+        <div class="flex-auto" on:click={handleMiniOpen}><a href="/about">about</a></div>
+        <div class="flex-auto" on:click={handleMiniOpen}><a href="/gallery">gallery</a></div>
+        <div class="flex-auto" on:click={handleMiniOpen}><a href="/blog">blog</a></div>
+        <div class="flex-auto" on:click={handleMiniOpen}><a href="/contact">contact</a></div>
+    </nav>
+</div>
+{/if}
 
 <slot></slot>
 
@@ -229,4 +223,12 @@
         min-width: 10px;
     }
 
+    .fullWidthMenu {
+        height: 100vh;
+    }
+    /* the flex-autos within the flex within the fullwidthmenu need some space around them */
+    .fullWidthMenu .flex-auto {
+        margin: 1rem;
+        font-size: x-large;
+    }
 </style>
