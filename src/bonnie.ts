@@ -168,6 +168,7 @@ export let blogPosts = [
         title: "The First Blog Post",
         teaser: "This is the first blog post I ever made.",
         image: "/swan.png",
+        hiddenTags: ["hidden"],
         body: `
         
         This is the first blog post I ever made.
@@ -187,6 +188,7 @@ export let blogPosts = [
         title: "The Second Blog Post",
         teaser: "This is the second blog post I ever made.",
         image: "/wolf.png",
+        hiddenTags: ["hidden"],
         body: `
 
         This is the second blog post I ever made.
@@ -206,6 +208,7 @@ export let blogPosts = [
         title: "The Third Blog Post",
         teaser: "This is the third blog post I ever made.",
         image: "/horse.png",
+        hiddenTags: ["hidden"],
         body: `
 
         This is the third blog post I ever made.

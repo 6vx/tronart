@@ -27,7 +27,7 @@
     /* when wider than 768 I want the flex-auto to be a bit smaller so you see more of the background */
     @media (min-width: 768px) {
         .flex {
-            min-height: 30vw;
+            min-height: 50vw;
         }
         .flex-auto {
             max-width: 500px;
