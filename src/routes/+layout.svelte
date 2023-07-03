@@ -34,7 +34,7 @@
   }
 
   // i want to disable right clicking on the page
-  document.addEventListener('contextmenu', event => event.preventDefault());
+//   document.addEventListener('contextmenu', event => event.preventDefault());
 
 
 
