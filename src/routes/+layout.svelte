@@ -1,10 +1,9 @@
 <script>
     import '../app.css'
     import { onMount } from 'svelte';
-
-
     import { Hamburger } from 'svelte-hamburgers';
-
+    import { metadata } from '../bonnie';
+    
     let open;
 
     let miniOpened = false;
@@ -34,9 +33,20 @@
     miniOpened = !miniOpened;
   }
 
+  // i want to disable right clicking on the page
+  document.addEventListener('contextmenu', event => event.preventDefault());
+
 
 
 </script>
+
+<svelte:head>
+    <!-- adding the google tags for seo from bonnie.ts metadata -->
+    <title>{metadata.title}</title>
+    <meta name="description" content="{metadata.description}" />
+    <meta name="keywords" content="{metadata.keywords}" />
+
+</svelte:head>
 
 <!-- start with header, extra large font Bonnie Godin -->
 <header>
@@ -46,7 +56,7 @@
                 
             </div>
         </div>
-        <div class="flex-auto sig"></div>
+        <div class="flex-auto sig" ></div>
         <div class="flex-auto1">
             {#if (!showMenu)}
             <div class="hamburger" on:click={handleMiniOpen}>
@@ -89,7 +99,7 @@
     <div class="flex-auto"><a href="/contact">contact</a></div>
 </nav> -->
 {#if miniOpened}
-<div class="fullWidthMenu" in:fade>
+<div class="fullWidthMenu" in:fade out:fade="{{duration:50, delay:100}}">
     <nav class="flex-col menu">
         <div class="flex-auto" on:click={handleMiniOpen}><a href="/">home</a></div>
         <div class="flex-auto" on:click={handleMiniOpen}><a href="/about">about</a></div>

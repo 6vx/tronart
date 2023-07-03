@@ -1,4 +1,7 @@
 <script>
+
+    import { metadata } from '../bonnie.ts'
+
     import { onMount } from 'svelte';
 
     // if mobile size screen set showMobile
@@ -16,7 +19,7 @@
 
     {#if !showMobile}
     <div class="flex2">
-        <img src="/tron2.png" alt="tron2" class="imageVersion" />
+        <img src="{metadata.aboutBioImage}" alt="tron2" class="imageVersion" />
     </div>
 
     <div class="flex2">
@@ -118,7 +121,7 @@
     }
 
     .bio {
-        background-image: url('/tron2.png');
+        background-image: url('/bonnieLifestyle3.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

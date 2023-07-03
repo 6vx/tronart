@@ -4,9 +4,10 @@
     import Splash from '../components/Splash.svelte'
     import Bio from '../components/Bio.svelte'
     import ArtDisplay from '../components/ArtDisplay.svelte'
+    import { metadata } from '../bonnie.ts'
 </script>
 
-<Splash />
+<Splash carouselImages={metadata.carouselImages}/>
 
 <!-- <div class="flex">
     <br>

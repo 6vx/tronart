@@ -1,5 +1,13 @@
 <script>
-    // a BlogCard will show a blog post
-    // it will have a title, a date, and a short description
-    // it will have a link to the full blog post as a blog page
+    export let blogEntryData = {
+        title: "Blog Title",
+        date: "2021-01-01",
+        description: "Blog Description",
+    }
 </script>
+
+<div class="blog-card">
+    <h2>{blogEntryData.title}</h2>
+    <p>{blogEntryData.date}</p>
+    <p>{blogEntryData.description}</p>
+</div>

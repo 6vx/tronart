@@ -38,7 +38,7 @@
     .showcase1 {
         min-width: 40px;
         min-height: 50px;
-        background-image: url('/art1.png');
+        background-image: url('/horse.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -46,7 +46,7 @@
     .showcase2 {
         min-width: 40px;
         min-height: 50px;
-        background-image: url('/art2.png');
+        background-image: url('/wolf.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -54,7 +54,7 @@
     .showcase3 {
         min-width: 40px;
         min-height: 50px;
-        background-image: url('/art3.png');
+        background-image: url('/swan.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

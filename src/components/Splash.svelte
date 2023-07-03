@@ -1,26 +1,26 @@
 <script>
     // i want to cycle the splash between three images, and use a fade transition for it
+    export let carouselImages;
     import { Carousel, CarouselTransition } from 'flowbite-svelte'
-
     import { fade } from 'svelte/transition';
 
     let images = [
         {
     id: 0,
     name: "Bonnie Godin",
-    imgurl: "/tron1.jpg",
+    imgurl: "/bonnieLifestyle1.jpg",
     attribution: "Bonnie Godin",
   },
   {
     id: 1,
     name: "Bonnie Godin",
-    imgurl: "/tron2.jpg",
+    imgurl: "/bonnieLifestyle2.jpg",
     attribution: "Bonnie Godin",
   },
   {
     id: 2,
     name: "Bonnie Godin",
-    imgurl: "/tron3.jpg",
+    imgurl: "/womanPainting1.jpg",
     attribution: "Bonnie Godin",
   },
     ];
@@ -34,7 +34,7 @@
     // change the image every five seconds
     setInterval(changeImage, 5000);
 
-
+    
 
     
     
@@ -45,19 +45,19 @@
 
   </div>
 
-  {#if currentImage === 0}
-    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/tron1.jpg');">
+{#if currentImage === 0}
+    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/bonnieLifestyle1.jpg');">
     </div>
 {/if}
 
 
 {#if currentImage === 1}
-    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/tron2.jpg');">
+    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/bonnieLifestyle2.jpg');">
     </div>
 {/if}
 
 {#if currentImage === 2}
-    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/tron3.jpg');">
+    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/womanPainting1.jpg');">
     </div>
 {/if}
 
