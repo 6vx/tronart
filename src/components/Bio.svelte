@@ -41,17 +41,17 @@
                     known the other side - to stifle your creativity is only to stifle magic in your life.
                 </p>
                     
-                <p></p>
+                
             </div>
             </div>
     </div>
     {:else}
-    <div class="flex">
+    <div class="flex desktop">
         <div class="flex-auto third">
             <div class="bio">
             </div>
         </div>
-        <div class="flex-auto twothird ">
+        <div class="flex-auto twothird">
             <h1>Welcome To My Gallery</h1>
     
             <h2>I'm Bonnie Godin - Professional Artist & First Responder</h2>
@@ -64,7 +64,6 @@
                 known the other side - to stifle your creativity is only to stifle magic in your life.
             </p>
                 
-            <p></p>
            </div>
         </div>
     </div>
@@ -137,6 +136,11 @@
     .twothird {
         /* this flex is 2/3rds width */
         flex: 1 1 55%;
+        /* vertically center align content */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
     }
     /* vertically center the blurb */
     .blurb {
@@ -159,15 +163,6 @@
         background-size: cover;
         background-position: center;
         align-self: center;
-    }
-    .imageVersion {
-        /* make it a bit smaller than the container */
-        /* padding: 10px;
-        margin: 10px; */
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border-radius: 5%;
     }
     .bio2 {
         overflow: hidden;
@@ -204,7 +199,7 @@
     }
     /* reduce padding and margin on h1 */
     h1 {
-        margin: 0;
+        margin: 0.3rem;
         padding: 0;
     }
     /* reduce padding and margin on h2 */
