@@ -74,13 +74,13 @@
     .flex {
         min-height: 25vh;
         /* height: 75vh; */
-        margin: 10px;
-        padding: 10px;
+        margin: 5px;
+        padding: 5px;
     }
     .flex2 {
         min-height: 33vh;
-        margin: 10px;
-        padding: 10px;
+        margin: 5px;
+        padding: 5px;
     }
 
 
@@ -128,7 +128,7 @@
         align-items: center;
         justify-content: center;
         /* extra padding and in italics */
-        padding: 0 1rem;
+        padding: 0 0.8rem;
         /* font-style: italic; */
     }
 
