@@ -145,7 +145,7 @@ export let artPieces = [
         price: 100,
     },
     {
-        title: "Rocky Mountain Wolf",
+        title: "Wolf",
         description: "This is a wolf I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/wolf.png",
@@ -158,6 +158,55 @@ export let artPieces = [
         image: "/horse.png",
         price: 785,
     },
+    {
+        title: "Goat",
+        description: "This is a goat I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/goat.png",
+        price: 1468,
+    },
+    {
+        title: "Eagle",
+        description: "This is an eagle I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/eagle.png",
+        price: 2020,
+    },
+    {
+        title: "Chipmunk",
+        description: "This is a chipmunk I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/chipmunk.png",
+        price: 3000,
+    },
+    { 
+        title: "Other Goat",
+        description: "This is another goat I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/goat2.png",
+        price: 4000,
+    },
+    {
+        title: "Wolf 2",
+        description: "This is a wolf I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/wolf2.png",
+        price: 5000,
+    },
+    {
+        title: "Wolf Pack",
+        description: "This is a pack of wolves I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/wolfPack.png",
+        price: 6000,
+    },
+    {
+        title: "Mountain Cat",
+        description: "This is a mountain cat I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/mountainCat.png",
+        price: 7000,
+    }
 
     // after the third, all the rest are sorted by their collection in the gallery
 

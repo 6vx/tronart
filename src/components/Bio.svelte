@@ -72,7 +72,7 @@
 <style>
     /* the flex should be 75% of the view height */
     .flex {
-        min-height: 50vh;
+        min-height: 25vh;
         /* height: 75vh; */
         margin: 10px;
         padding: 10px;
@@ -85,7 +85,14 @@
 
 
     .bio {
-        height: 100%;
+        height: 25vw;
+        width: 25vw;
+        /* i want to center it vertically */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
         /* when it's tall the top and bottom could be cropped a bit */
 
         /* minimum height of 100px */
@@ -93,9 +100,9 @@
         /* max width of 40% */
         /* max-width: 50%; */
         /* crop it like a circle */
-        border-radius: 5%;
+        /* border-radius: 5%; */
         /* make it a bit smaller than the container */
-        transform: scale(0.9);
+        /* transform: scale(0.9); */
 
         /* padding: 10px;
         margin: 10px; */
@@ -104,6 +111,11 @@
     .third {
         /* this flex is 1/3rd width */
         flex: 1 1 25%;
+        /* vertically center align content */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
     }
     .twothird {
         /* this flex is 2/3rds width */
