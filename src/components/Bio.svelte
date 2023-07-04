@@ -19,7 +19,13 @@
 
     {#if !showMobile}
     <div class="flex2 bio2reverse">
-        <img src="bonnieLifestyle3.png" style="width: 30%;" alt="">
+    <!-- i'm putting the image centered here -->
+        <div class="flex-auto mobileImage">
+            <img src="bonnieLifestyle3.png" alt="">
+
+
+        </div>
+        
     </div>
 
     <div class="flex2">
@@ -150,6 +156,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        align-self: center;
     }
     .imageVersion {
         /* make it a bit smaller than the container */
@@ -162,5 +169,33 @@
     }
     .bio2 {
         overflow: hidden;
+    }
+    .flex-auto {
+        align-items: center;
+    }
+    img {
+        width: 50vw;
+        height: 50vw;
+        object-fit: cover;
+        /* add left and right margin */
+        
+        
+    }
+    .mobileImage {
+        
+        /* width: 100%; */
+        /* height: 100%; */
+        /* object-fit: cover; */
+        /* add left and right margin */
+        margin-left: 2rem;
+        margin-right: 2rem;
+        /* border-radius: 5%; */
+
+        /* remove all bottom and top margin and padding */
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+
     }
 </style>
