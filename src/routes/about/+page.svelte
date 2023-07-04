@@ -1,11 +1,16 @@
 <script>
     import Bio from '../../components/Bio.svelte'
+    import { metadata } from '../../bonnie.ts'
 </script>
 
 <div class="flex">
     <div class="flex-auto">
         <img class="aboutImage" src="/bonnieAboutPage.JPG" alt="">
     </div>
+    <div class="flex-auto">
+        <h3>{metadata.shortDescription}</h3>
+    </div>
+
     <div class="flex-auto">
         <Bio />
     </div>
@@ -24,5 +29,15 @@
     /* i want aboutImage to be the width of the screen */
     .aboutImage {
         width: 100%;
+    }
+    h3 {
+        /* italic? */
+        font-style: italic;
+        /* center */
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 </style>

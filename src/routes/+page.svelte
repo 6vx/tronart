@@ -24,14 +24,20 @@
     <br>
 </div> -->
 
-<ArtDisplay />
+<a href="/rockymountainanimals">
+<ArtDisplay /></a>
 
-<Bio />
+<a href="/about">
+<Bio /></a>
 
 
 <style>
     /* p {
         margin: 10px 30px 10px 30px;
     } */
-    
+    /* remove all link styles */
+    a {
+        text-decoration: none;
+        color: inherit;
+    }    
 </style>

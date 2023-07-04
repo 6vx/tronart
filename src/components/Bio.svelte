@@ -18,8 +18,8 @@
 <div class="bio2">
 
     {#if !showMobile}
-    <div class="flex2">
-        <img src="{metadata.aboutBioImage}" alt="tron2" class="imageVersion" />
+    <div class="flex2 bio2reverse">
+        <img src="bonnieLifestyle3.png" style="width: 30%;" alt="">
     </div>
 
     <div class="flex2">
@@ -78,9 +78,18 @@
         padding: 5px;
     }
     .flex2 {
-        min-height: 33vh;
         margin: 5px;
         padding: 5px;
+        /* align center */
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    /* reducing the padding and margin around bio2reverse class */
+    .bio2reverse {
+        margin: 0;
+        padding: 0;
     }
 
 
@@ -127,8 +136,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
         /* extra padding and in italics */
-        padding: 0 0.8rem;
+        /* padding: 0 0.8rem; */
         /* font-style: italic; */
     }
 
