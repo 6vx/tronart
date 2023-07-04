@@ -89,6 +89,7 @@
         /* align center */
         align-items: center;
         justify-content: center;
+        text-align: center;
         
     }
 
@@ -182,6 +183,8 @@
         
     }
     .mobileImage {
+        align-items: center;
+        justify-content: center;
         
         /* width: 100%; */
         /* height: 100%; */
@@ -197,5 +200,15 @@
         padding-top: 0;
         padding-bottom: 0;
 
+    }
+    /* reduce padding and margin on h1 */
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+    /* reduce padding and margin on h2 */
+    h2 {
+        margin: 0;
+        padding: 0;
     }
 </style>

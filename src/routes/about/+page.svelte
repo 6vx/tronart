@@ -43,10 +43,15 @@
         padding-right: 4rem;
     }
     .markdownblock {
-        font-family: Playfair Display, 'Playfair Display', serif;
-
-    }
-    .markdown {
-        font-family: Playfair Display, 'Playfair Display', serif;
+        /* height: 50%; */
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        /* extra padding and in italics */
+        /* padding: 0 0.8rem; */
+        /* font-style: italic; */
     }
 </style>
