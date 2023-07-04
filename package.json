@@ -21,6 +21,7 @@
 	"dependencies": {
 		"flowbite": "^1.6.6",
 		"flowbite-svelte": "^0.38.4",
+		"marked": "^5.1.0",
 		"svelte-modals": "^1.2.1",
 		"tw-elements": "^1.0.0-beta2"
 	}

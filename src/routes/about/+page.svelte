@@ -1,6 +1,7 @@
 <script>
     import Bio from '../../components/Bio.svelte'
     import { metadata } from '../../bonnie.ts'
+    import { marked } from 'marked'
 </script>
 
 <div class="flex">
@@ -8,7 +9,8 @@
         <img class="aboutImage" src="/bonnieAboutPage.JPG" alt="">
     </div>
     <div class="flex-auto">
-        <h3>{metadata.shortDescription}</h3>
+        <div class="markdownblock">
+        {@html marked(metadata.shortDescription)}</div>
     </div>
 
     <div class="flex-auto">
@@ -39,5 +41,12 @@
         margin-right: 2rem;
         padding-left: 4rem;
         padding-right: 4rem;
+    }
+    .markdownblock {
+        font-family: Playfair Display, 'Playfair Display', serif;
+
+    }
+    .markdown {
+        font-family: Playfair Display, 'Playfair Display', serif;
     }
 </style>

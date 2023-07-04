@@ -12,7 +12,7 @@ h1 {
 
 html {
     
-    font-family: Playfair Display;
+    font-family: Playfair Display, 'Playfair Display', serif;
     /* very light pink background color */
     background-color: #fbefe3;
     color: #C05F2B;
@@ -25,8 +25,12 @@ html {
 
 }
 
+.markdown {
+    font-family: inherit;
+}
+
 body {
-    font-family: Playfair Display;
+    font-family: Playfair Display, 'Playfair Display', serif;
     margin: 0;
     padding: 0;
     /* overflow: hidden; */

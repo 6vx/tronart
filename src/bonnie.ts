@@ -95,17 +95,8 @@ export let metadata = {
             "Spiritual"
         ],
 
-    shortDescription: 
-                        `
-                        An artist first and paramedic second, 
-                        Bonnie creates vibrant art that reflects 
-                        reverence for the bright side of life. 
-                        She believes all of lifes pains and hardships 
-                        have mirror images of beauty and joy. She 
-                        channels these images onto her canvases through 
-                        bright colours, dynamic brush strokes and 
-                        uplifting subject matter
-                        `,
+    shortDescription: "An *artist* **first** and *paramedic* **second**, Bonnie creates vibrant art that reflects reverence for the bright side of life. \n\n She believes all of lifes pains and hardships have mirror images of beauty and joy. \n\n She channels these images onto her canvases through bright colours, dynamic brush strokes and uplifting subject matter",
+                         
 }
 
 // this is where the collections are named. Each collection will become a gallery link in itself, so 
