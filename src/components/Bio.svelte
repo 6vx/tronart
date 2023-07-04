@@ -51,11 +51,12 @@
             <div class="bio">
             </div>
         </div>
-        <div class="flex-auto twothird blurb">
-           <div>
+        <div class="flex-auto twothird ">
             <h1>Welcome To My Gallery</h1>
     
             <h2>I'm Bonnie Godin - Professional Artist & First Responder</h2>
+           <div class="blurb">
+            
             
             <p>
                 What I know for sure about my journey of being an artist is that it was never a choice. 
