@@ -7,7 +7,8 @@
 </div>
 
 <div class="flex">
-    {#each blogPosts as blogPost}
+    <p>More coming soon!</p>
+    <!-- {#each blogPosts as blogPost}
          <div class="flex-auto">
             <div class="flex-col">
                 <div class="flex-auto">
@@ -21,5 +22,5 @@
                 </div>
             </div>
          </div>
-    {/each}
+    {/each} -->
 </div>
