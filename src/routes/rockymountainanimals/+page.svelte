@@ -63,11 +63,7 @@
         background-size: cover;
         background-position: center;
         height: 50vh;
-        width: 100vw;
-        /* make sure it goes to the edge */
-        margin: 0;
-        padding: 0;
-        
+        width: 100%;
     }
     
 </style>
