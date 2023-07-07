@@ -85,7 +85,7 @@
     <nav class="flex menu">
         <div class="flex-auto"><a href="/">home</a></div>
         <div class="flex-auto"><a href="/about">about</a></div>
-        <div class="flex-auto"><a href="/gallery">gallery</a></div>
+        <div class="flex-auto"><a href="/rockymountainanimals">gallery</a></div>
         <div class="flex-auto"><a href="/blog">blog</a></div>
         <div class="flex-auto"><a href="/contact">contact</a></div>
     </nav>
@@ -103,7 +103,7 @@
     <nav class="flex-col menu">
         <div class="flex-auto" on:click={handleMiniOpen}><a href="/">home</a></div>
         <div class="flex-auto" on:click={handleMiniOpen}><a href="/about">about</a></div>
-        <div class="flex-auto" on:click={handleMiniOpen}><a href="/gallery">gallery</a></div>
+        <div class="flex-auto" on:click={handleMiniOpen}><a href="/rockymountainanimals">gallery</a></div>
         <div class="flex-auto" on:click={handleMiniOpen}><a href="/blog">blog</a></div>
         <div class="flex-auto" on:click={handleMiniOpen}><a href="/contact">contact</a></div>
     </nav>
