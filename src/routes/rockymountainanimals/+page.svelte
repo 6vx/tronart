@@ -44,7 +44,7 @@
                 {#if artPiece.price == 0}
                     <i>Sold</i>
                 {:else}
-                    ${artPiece.price}
+                    <b>${artPiece.price}</b>
                 {/if}
                 </p>
                 <hr>
