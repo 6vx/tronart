@@ -61,6 +61,10 @@
     .art {
         margin: 1rem;
     }
+    .art img {
+        width: 100%;
+        height: auto;
+    }
     .gif-box {
         background-image: url('/rma.gif');
         background-repeat: no-repeat;
