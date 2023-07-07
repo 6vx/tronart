@@ -46,6 +46,7 @@
 <style>
     .flex {
         text-align: center;
+        width: 100%;
     }
     .top-blurb {
         margin: 1rem;
@@ -55,7 +56,7 @@
 
     }
     .art {
-        margin: 1rem;
+        /* margin: 1rem; */
     }
     .gif-box {
         background-image: url('/rma.gif');
@@ -65,5 +66,7 @@
         height: 50vh;
         width: 100%;
     }
+
+
     
 </style>
