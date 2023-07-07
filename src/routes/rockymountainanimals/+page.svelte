@@ -29,6 +29,8 @@
         <p>Thank you to my local art community for all the support!</p>
     </div>
 
+    
+
 
     </div>
 
@@ -57,7 +59,7 @@
 
     }
     .art {
-        /* margin: 1rem; */
+        margin: 1rem;
     }
     .gif-box {
         background-image: url('/rma.gif');
@@ -67,7 +69,4 @@
         height: 50vh;
         width: 100%;
     }
-
-
-    
 </style>
