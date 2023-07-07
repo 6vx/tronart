@@ -129,21 +129,21 @@ export let collections = [
 // the first OF EACH COLLECTION will be the featured piece for that collection
 export let artPieces = [
     {
-        title: "Study",
+        title: "Swan Study",
         description: "This is the first piece I ever made.",
         belongsToCollection: "First Collection",
         image: "/swan.png",
         price: 0,
     },
     {
-        title: "Wolf",
+        title: "Winfred",
         description: "This is a wolf I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/wolf.png",
         price: 0,
     },
     {
-        title: "Horse",
+        title: "Black Stallion Study",
         description: "This is a horse I saw in the Rocky Mountains.",
         belongsToCollection: "Regular Animals",
         image: "/horse.png",
@@ -189,7 +189,7 @@ export let artPieces = [
         description: "This is a pack of wolves I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/wolfPack.png",
-        price: 0,
+        price: 333,
     },
     {
         title: "Beatrice",
