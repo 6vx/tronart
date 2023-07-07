@@ -10,6 +10,14 @@ h1 {
     /* text-decoration: underline; */
 }
 
+/* I don't want to allow the user to zoom in and out */
+/* I don't want the user to be able to scroll horizontally */
+html {
+    overflow: auto;
+    zoom: reset;
+}
+
+
 html {
     
     font-family: Playfair Display, 'Playfair Display', serif;
