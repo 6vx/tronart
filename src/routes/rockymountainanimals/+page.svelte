@@ -44,6 +44,7 @@
         {#each rockyMountainAnimals as artPiece}
             <div class="flex-auto art">
                 <!-- the hover text should be artPiece.title -->
+                <hr>
                 <img src={artPiece.image} alt="{artPiece.title}" >
                 <p><b>{artPiece.title}</b> - 
                 <!-- if artPiece.price is 0, display 'Sold' in italics, otherwise display the price -->
