@@ -12,7 +12,9 @@
         <div class="markdownblock">
         {@html marked(metadata.shortDescription)}</div>
     </div>
-
+    <br>
+    <hr>
+    <br>
     <div class="flex-auto">
         <Bio />
     </div>
@@ -53,5 +55,13 @@
         /* extra padding and in italics */
         /* padding: 0 0.8rem; */
         /* font-style: italic; */
+    }
+    hr {
+        /* make the hr color #C05F2B */
+        border: 0;
+        height: 1px;
+        background: #C05F2B;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 </style>
