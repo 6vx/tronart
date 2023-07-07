@@ -99,6 +99,9 @@
         border: 0;
         height: 1px;
         background: #C05F2B;
+        /* left and right should be a little inset */
+        margin-left: 1rem;
+        margin-right: 1rem;
         
 
     }
