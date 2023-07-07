@@ -35,7 +35,8 @@
     <div class="flex">
         {#each rockyMountainAnimals as artPiece}
             <div class="flex-auto art">
-                <img src={artPiece.image} alt="{artPiece.title}">
+                <!-- the hover text should be artPiece.title -->
+                <img src={artPiece.image} alt="{artPiece.title}" >
             </div>
         {/each}
     </div>

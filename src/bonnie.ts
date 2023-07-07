@@ -129,7 +129,7 @@ export let collections = [
 // the first OF EACH COLLECTION will be the featured piece for that collection
 export let artPieces = [
     {
-        title: "Swan",
+        title: "Study",
         description: "This is the first piece I ever made.",
         belongsToCollection: "First Collection",
         image: "/swan.png",
@@ -150,55 +150,69 @@ export let artPieces = [
         price: 785,
     },
     {
-        title: "Goat",
+        title: "Murray",
         description: "This is a goat I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/goat.png",
         price: 1468,
     },
     {
-        title: "Eagle",
+        title: "Edgar",
         description: "This is an eagle I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/eagle.png",
         price: 2020,
     },
     {
-        title: "Chipmunk",
+        title: "Charlie",
         description: "This is a chipmunk I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/chipmunk.png",
         price: 3000,
     },
     { 
-        title: "Other Goat",
+        title: "Bernard",
         description: "This is another goat I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/goat2.png",
         price: 4000,
     },
     {
-        title: "Wolf 2",
+        title: "Fred",
         description: "This is a wolf I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/wolf2.png",
         price: 5000,
     },
     {
-        title: "Wolf Pack",
+        title: "Trio",
         description: "This is a pack of wolves I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/wolfPack.png",
         price: 6000,
     },
     {
-        title: "Mountain Cat",
+        title: "Beatrice",
         description: "This is a mountain cat I saw in the Rocky Mountains.",
         belongsToCollection: "Rocky Mountain Animals",
         image: "/mountainCat.png",
         price: 7000,
-    }
-
+    },
+    {
+        title: "Boris",
+        description: "This is a bear I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/bear.png",
+        price: 8000,
+    },
+    {
+        title: "Marla",
+        description: "This is a lioness I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/lioness.png",
+        price: 9000,
+    },
+    
     // after the third, all the rest are sorted by their collection in the gallery
 
 ]
