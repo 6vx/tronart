@@ -39,6 +39,15 @@
             <div class="flex-auto art">
                 <!-- the hover text should be artPiece.title -->
                 <img src={artPiece.image} alt="{artPiece.title}" >
+                <p><b>{artPiece.title}</b> - 
+                <!-- if artPiece.price is 0, display 'Sold' in italics, otherwise display the price -->
+                {#if artPiece.price == 0}
+                    <i>Sold</i>
+                {:else}
+                    ${artPiece.price}
+                {/if}
+                </p>
+                <hr>
             </div>
         {/each}
     </div>
@@ -65,6 +74,11 @@
         width: 100%;
         height: auto;
     }
+    .art p {
+        font-size: 0.8rem;
+        padding: 0;
+        margin: 0;
+    }
     .gif-box {
         background-image: url('/rma.gif');
         background-repeat: no-repeat;
@@ -72,5 +86,13 @@
         background-position: center;
         height: 50vh;
         width: 100%;
+    }
+    hr {
+        /* make the hr color #C05F2B */
+        border: 0;
+        height: 1px;
+        background: #C05F2B;
+        
+
     }
 </style>
