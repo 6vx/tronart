@@ -7,7 +7,9 @@
 </div>
 
 <div class="flex">
+    <div class="flex-auto">
     <p>More coming soon!</p>
+    </div>
     <!-- {#each blogPosts as blogPost}
          <div class="flex-auto">
             <div class="flex-col">
