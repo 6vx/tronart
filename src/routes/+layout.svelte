@@ -118,7 +118,7 @@
     
     <br>
     <!-- i want a box to sign up for email newsletter here -->
-    <div class="newsletter">
+    <!-- <div class="newsletter">
         <div class="flex-auto">
             <h3>Sign up for my newsletter!</h3>
         </div>
@@ -128,7 +128,7 @@
                 <input type="email" name="_replyto" placeholder="Your email" />
                 <button type="submit">Send</button>
             </form>
-        </div>
+        </div> -->
         
     </div>
    
