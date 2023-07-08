@@ -128,9 +128,9 @@
                 <input type="email" name="_replyto" placeholder="Your email" />
                 <button type="submit">Send</button>
             </form>
-        </div> -->
+        </div>
         
-    </div>
+    </div> -->
    
     <!-- I want a basic nav here to go between HOME ABOUT GALLERY and CONTACT -->
    <br>
