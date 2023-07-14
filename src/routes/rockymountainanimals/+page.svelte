@@ -29,6 +29,11 @@
 
     <div class="top-blurb">
         <h1>Rocky Mountain Animals</h1>
+        <hr>
+        <p>as seen at...</p>
+        <!-- i am going to put the stampede logo here, max width will be 80vw -->
+        <img src="/stampede.png" alt="Calgary Stampede Logo" style="max-width: 50vw;">
+        <hr>
 
         <h3>I painted this series of Rocky Mountains animals as a way to connect to my local community in Calgary, Alberta.</h3>
         <h3>     Happily, the series ended up doing just that. Most of the animals were sold in my first art show experience, and the remaining will be showcased at the Calgary Stampede 2023!</h3>

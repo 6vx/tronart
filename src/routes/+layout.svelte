@@ -118,19 +118,7 @@
     
     <br>
     <!-- i want a box to sign up for email newsletter here -->
-    <!-- <div class="newsletter">
-        <div class="flex-auto">
-            <h3>Sign up for my newsletter!</h3>
-        </div>
-
-        <div class="flex-auto">
-            <form action="https://formspree.io/f/maylqzqk" method="POST">
-                <input type="email" name="_replyto" placeholder="Your email" />
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        
-    </div> -->
+    
    
     <!-- I want a basic nav here to go between HOME ABOUT GALLERY and CONTACT -->
    <br>
@@ -142,6 +130,51 @@
         <div class="flex-auto"><a href="/blog">blog</a></div>
         <div class="flex-auto"><a href="/contact">contact</a></div>
     </nav> -->
+
+    <!-- instagram link here -->
+    <br>
+    <div class="flex">
+        <div class="flex-auto">
+            
+            <a href="https://www.instagram.com/bonnierose.art/" target="_blank">
+                <div class="flex">
+                    <div class="flex-auto">
+                        <p style="text-align: left; margin: 1rem;">Follow me on Instagram</p>
+                    </div>
+                    <div class="flex-auto">
+                        <img src="/instagram.png" alt="Instagram Logo" style="max-width: 35px;">
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+
+        <!-- <div class="flex-auto">
+            <a href="https://www.facebook.com/bonniegodinart" target="_blank">
+                <img src="/facebook.png" alt="Facebook Logo" style="max-width: 50vw;">
+            </a>
+        </div> -->
+        <div class="flex-auto">
+            <div class="flex">
+                <div class="flex-auto">
+                    <p style="text-align: left; margin: 1rem;">Sign up for my newsletter:</p>
+                </div>
+                <div class="flex-auto">
+                    <form action="https://www.deno.com/timgodinwillputadeployfunctiontocatchthislatercantwaittotrydenokvomgomg" method="POST">
+                        <input type="email" name="_replyto" placeholder="Your email" />
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+            
+            
+            
+
+
+    </div>
 
 </bottombar>
 
@@ -240,5 +273,16 @@
     .fullWidthMenu .flex-auto {
         margin: 1rem;
         font-size: x-large;
+    }
+    button {
+        background-color: #b579a0;
+        color: white;
+        border: none;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    a {
+        text-decoration: none;
+        color: #b579a0;
     }
 </style>
