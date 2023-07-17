@@ -6,6 +6,8 @@
     
     let open;
 
+    let email_address = ""
+
     let miniOpened = false;
 
     import { Modals, closeModal, closeAllModals, openModal, modals } from 'svelte-modals'
@@ -160,8 +162,9 @@
                     <p style="text-align: left; margin: 1rem;">Sign up for my newsletter:</p>
                 </div>
                 <div class="flex-auto">
-                    <form action="https://www.deno.com/timgodinwillputadeployfunctiontocatchthislatercantwaittotrydenokvomgomg" method="POST">
-                        <input type="email" name="_replyto" placeholder="Your email" />
+                    
+                    <form action="https://tron.deno.dev/api/email?new_email={email_address}" method="POST">
+                        <input type="email" name="_replyto" placeholder="Your email" bind:value={email_address}/>
                         <button type="submit">Send</button>
                     </form>
                 </div>
