@@ -66,18 +66,20 @@
         align-items: center;
     }
     input {
+        width: 200px;
         margin: 10px;
     }
     textarea {
         margin: 10px;
+        width: 200px;
         height: 100px;
     }
     button {
         background-color: #b579a0;
         color: white;
         border: none;
-        padding: 10px;
-        margin: 10px;
+        padding: 5px;
+        margin: 5px;
     }
 
 </style>
