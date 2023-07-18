@@ -117,6 +117,7 @@
 <br>
 
 <bottombar>
+    <hr>
     <div class="flex">
         <div class="flex-auto">
             <a href="https://www.instagram.com/bonnierose.art/" target="_blank">
@@ -144,7 +145,9 @@
             </div>
         </div>
     </div>
+    <hr>
 </bottombar>
+<br>
 
 
 <style>
@@ -258,5 +261,10 @@
     bottombar {
         margin-top: 0.8rem;
         margin-bottom: 0.8rem;
+    }
+    hr {
+        color: #b579a0;
+        background-color: #b579a0;
+        height: 1px;
     }
 </style>
