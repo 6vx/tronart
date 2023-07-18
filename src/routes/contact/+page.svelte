@@ -1,13 +1,30 @@
+<script>
+    let email_address = "";
+    let nameOfUser = "";
+    let comment = "";
+</script>
+
 <div class="flex">
     <div class="flex-auto">
         <h1>Contact</h1>
 
         <p>Interested in a commission? Something for your home, a pet portrait commission or a gift for a friend? Or maybe just a general question? Drop a line!</p>
 
-        <!-- this will be a link to send an email to bonnie -->
-        <a href="mailto:bonniegodin@gmail.com">
-        <p>Get in touch with me.</p>
-        </a>
+        <form action="https://tron.deno.dev/api/comment?email={email_address}&comment={comment}&nameOfUser={nameOfUser}" method="POST">
+                <div class="flex-auto">
+                    <input type="text" name="name" placeholder="Your name" bind:value={nameOfUser}/>
+                </div>
+                <div class="flex-auto">
+                    <input type="email" name="_replyto" placeholder="Your email" bind:value={email_address}/>
+                </div>
+                <!-- a flex-auto with a 25vh textarea for a comment in it -->
+                <div class="flex-auto">
+                    <textarea name="comment" placeholder="Your comment" bind:value={comment}></textarea>
+                </div>
+                <div class="flex-auto">
+                    <button type="submit">Send</button>
+                </div>
+        </form>
 
         <h3>How does the commission process work?</h3>
 
@@ -41,4 +58,26 @@
     a > p  {
         font-size: larger;
     }
+    /* styles for the form */
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input {
+        margin: 10px;
+    }
+    textarea {
+        margin: 10px;
+        height: 100px;
+    }
+    button {
+        background-color: #b579a0;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+    }
+
 </style>
