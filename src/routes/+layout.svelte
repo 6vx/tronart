@@ -249,6 +249,7 @@
         border: none;
         padding: 0.5rem;
         margin-left: 0.5rem;
+        max-width: 200px;
     }
     a {
         text-decoration: none;

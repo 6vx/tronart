@@ -79,8 +79,8 @@
         color: white;
         border: none;
         padding: 5px;
-        margin: 5px;
-        width: 25vw;
+        margin: 10px;
+        width: 200px;
     }
 
 </style>
