@@ -32,7 +32,7 @@ interface BlogPost {
     // no special characters in title, spaces will be replaced with dashes for links
     title: string,
     teaser: string,
-    body: string,
+    body: Array<string>,
     date: string,
     // this question mark means that it's optional. Not every blog post needs to be about an art piece.
     ArtPieceLink?: string,
@@ -219,63 +219,22 @@ export let artPieces = [
 // This is where all the blog posts will be stored.
 export let blogPosts = [
     {
-        title: "The First Blog Post",
-        teaser: "This is the first blog post I ever made.",
-        image: "/swan.png",
-        hiddenTags: ["hidden"],
-        body: `
-        
-        This is the first blog post I ever made.
-
-        I can write separate paragraphs because the backticks see it.
-
-        # I learned to paint inside my brain.
-
-        ### Bonnie Godin
-
-        ## And markdown even works probably I think let's see.
-        
-        `,
-        date: "2021-01-01",
-    },
-    {
-        title: "The Second Blog Post",
-        teaser: "This is the second blog post I ever made.",
-        image: "/wolf.png",
-        hiddenTags: ["hidden"],
-        body: `
-
-        This is the second blog post I ever made.
-
-        I can write separate paragraphs because the backticks see it.
-
-        # I learned to paint inside my brain.
-
-        ### Bonnie Godin
-
-        ## And markdown even works probably I think let's see.
-
-        `,
-        date: "2021-01-02",
-    },
-    {
-        title: "The Third Blog Post",
-        teaser: "This is the third blog post I ever made.",
-        image: "/horse.png",
-        hiddenTags: ["hidden"],
-        body: `
-
-        This is the third blog post I ever made.
-
-        I can write separate paragraphs because the backticks see it.
-
-        # I learned to paint inside my brain.
-
-        ### Bonnie Godin
-
-        ## And markdown even works probably I think let's see.
-
-        `,
-        date: "2021-01-03",
+        title: "Stampede 2023",
+        link: "stampede-2023",
+        teaser: "This past weekend I took part in an event that took my artistic journey to a whole new level: my first live painting experience.",
+        image: "/hires_stampede.gif",
+        hiddenTags: ["stampede", "calgary", "alberta", "canada", "2023", "rocky mountain animals"],
+        body: [
+            "This past weekend I took part in an event that took my artistic journey to a whole new level: my first live painting experience. I had the honour of being invited to paint live at the Calgary Stampede, allowing me to showcase my skills in real-time. In this blog post I want to share the story of this unforgettable event and the profound impact it had on my artistic growth!",
+            "The painting took place in a bustling art gallery inside the Stampede grounds, The Western Oasis, where various artists from different backgrounds gathered to showcase their work. The atmosphere was electric, with vibrant colors, hundreds of paintings both big and small, and tons of Stampede-goers filling the grounds with energy. It was in this vibrant backdrop that I was invited to participate as a live painter.",
+            "With the easel set up, brushes in hand, and my canvas before me, the moment arrived. Having never painted outside of my own studio before, I didn’t have any preconceived notions of what to expect in terms of if anyone would watch or be interested. To my surprise, in less than several minutes a large crowd had gathered and many were recording footage! Having gotten into my painting mindset, I didn’t realize I was being filmed until I broke my concentration to ask my sister a question, and when I turned from the canvas I finally saw everyone! What a surreal experience!",
+            "As the Stampede carried on, I allowed myself to get lost in the rhythm of painting, interspersed with talking with some of the loveliest folks who stopped to say hi. (I appreciated every single one!) The longer the event carried on, the more relaxed I began to feel and became struck with one overwhelming feeling: I HAVE to do this again! It was so fun!",
+            "What struck me most during my live painting experience was the powerful connection that occurred with some of the Stampede-goers. Some gazed quietly with curiosity and appreciation, while others watched intently, engaging in conversation and asking about my process and inspirations. The raw, unfiltered feedback provided an unexpected source of motivation and inspiration, pushing me to explore new ideas and techniques for the future.",
+            "My first live painting experience was nothing short of transformational. It challenged me to step outside my comfort zone, to confront my fears, and to trust in my artistic intuition. Through this process, I discovered the power of vulnerability and the profound impact of sharing my art with others. It was an experience that not only enriched my artistic growth but also nurtured my confidence as an artist.",
+            "This experience will forever hold a special place in my artistic journey, reminding me of the power of authenticity and the transformative magic that lies within every brushstroke! Thank you again to everyone who said hello, and to the Calgary Stampede gallery staff for their hard work in making this exhibition and live painting experience so successful and enjoyable.",
+            "Stay tuned for my next live painting adventure",
+            "B",
+        ],
+        date: "2023-07-17",
     },
 ]
