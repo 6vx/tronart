@@ -222,7 +222,7 @@ export let blogPosts = [
         title: "Stampede 2023",
         link: "stampede-2023",
         teaser: "This past weekend I took part in an event that took my artistic journey to a whole new level: my first live painting experience.",
-        image: "/hires_stampede.gif",
+        image: "/bear.png",
         hiddenTags: ["stampede", "calgary", "alberta", "canada", "2023", "rocky mountain animals"],
         body: [
             "This past weekend I took part in an event that took my artistic journey to a whole new level: my first live painting experience. I had the honour of being invited to paint live at the Calgary Stampede, allowing me to showcase my skills in real-time. In this blog post I want to share the story of this unforgettable event and the profound impact it had on my artistic growth!",

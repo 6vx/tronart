@@ -20,15 +20,16 @@
     {#if !showMobile}
     <div class="flex2 bio2reverse">
     <!-- i'm putting the image centered here -->
+        
+        
+    </div>
+
+    <div class="flex2">
         <div class="flex-auto mobileImage">
             <img src="bonnieLifestyle3.png" alt="">
 
 
         </div>
-        
-    </div>
-
-    <div class="flex2">
         <div class="flex-auto blurb">
             <div>
                 <h1>Welcome To My Gallery</h1>

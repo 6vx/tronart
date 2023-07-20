@@ -1,21 +1,16 @@
 <!-- this will display a blogpost in full size -->
 <script>
+    // read the slug named 'post' from the url
+    export let data;
+    const { post } = data.params;
+    // get the blogPosts array from bonnie.ts
     import { blogPosts } from '../../bonnie.ts';
-    import { onMount } from 'svelte';
-    import marked from 'marked';
-    import DOMPurify from 'dompurify';
-
-    export let slug;
-
-    let blogPost;
-
-    onMount(async () => {
-        blogPost = blogPosts.find(post => post.slug == slug);
-        blogPost.content = DOMPurify.sanitize(marked(blogPost.content));
-    });
+    // find the blogPost that matches the slug
+    let blogPost = blogPosts.find((blogPost) => blogPost.link == post);
 
 </script>
 
 <section>
+
     
 </section>

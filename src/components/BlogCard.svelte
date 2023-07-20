@@ -33,6 +33,7 @@
     .blog-card-image img {
         height: auto;
         object-fit: cover;
+        max-width: 200px;
     }
     /* the card content should align with the image and be flush */
     .blog-card-content {
