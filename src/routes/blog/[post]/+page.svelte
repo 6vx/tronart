@@ -45,6 +45,8 @@
     /* set .blog-max to a max width of 500 */
     .blog-max {
         max-width: 500px;
+        margin: 5px;
+        padding: 5px;
     }
     a {
         color: #b579a0;
