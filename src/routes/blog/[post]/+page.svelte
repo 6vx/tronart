@@ -39,6 +39,7 @@
         /* center everything */
         align-items: center;
         justify-content: center;
+        text-align: center;
         margin: 0px;
         padding: 0px;
     }
@@ -65,6 +66,10 @@
     /* set .date and .backlink to be full width of their container */
     .date, .backlink {
         width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
     }
-    
+
 </style>
