@@ -39,18 +39,20 @@
         /* center everything */
         align-items: center;
         justify-content: center;
-        max-width: 500px;
+        margin: 0px;
+        padding: 0px;
     }
     /* set .blog-max to have some margin and padding */
     .blog-max {
-        margin: 5px;
-        padding: 5px;
+        margin: 1em;
+        padding: 1em;
+        margin-top: 0;
+        padding-top: 0;
     }
     .flex-auto {
         flex: 1;
         
     }
-
     a {
         color: #b579a0;
         font-size: 0.8em;
