@@ -39,7 +39,6 @@
         /* center everything */
         align-items: center;
         justify-content: center;
-        text-align: center;
         margin: 0px;
         padding: 0px;
     }
@@ -69,7 +68,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        
+
     }
 
 </style>
