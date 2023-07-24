@@ -26,7 +26,7 @@
         <p>{line}</p>
         {/each}
     </div>
-    <div class="flex-auto">
+    <div class="flex-auto backlink">
         <a href="/blog">Back to blog</a>
     </div>
 
@@ -62,4 +62,9 @@
         color: #b579a0;
         font-size: 0.8em;
     }
+    /* set .date and .backlink to be full width of their container */
+    .date, .backlink {
+        width: 100%;
+    }
+    
 </style>
