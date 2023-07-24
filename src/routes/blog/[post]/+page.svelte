@@ -11,7 +11,7 @@
     <meta name="description" content="{data.blogPost.teaser}">
 </svelte:head>
 
-<div class="flex-col blog-max">
+<div class="flex-col">
     <div class="flex-auto">
         <h1>{data.blogPost.title}</h1>
     </div>
@@ -21,7 +21,7 @@
     <div class="flex-auto">
         <p>{data.blogPost.date}</p>
     </div>
-    <div class="flex-auto">
+    <div class="flex-auto blog-max">
         {#each data.blogPost.body as line}
         <p>{line}</p>
         {/each}
@@ -39,15 +39,14 @@
         /* center everything */
         align-items: center;
         justify-content: center;
-
-
-    }
-    /* set .blog-max to a max width of 500 */
-    .blog-max {
         max-width: 500px;
+    }
+    /* set .blog-max to have some margin and padding */
+    .blog-max {
         margin: 5px;
         padding: 5px;
     }
+
     a {
         color: #b579a0;
     }
