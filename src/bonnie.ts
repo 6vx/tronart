@@ -212,6 +212,13 @@ export let artPieces = [
         image: "/lioness.png",
         price: 0,
     },
+    {
+        title: "Gus",
+        description: "This is a grizzly I saw in the Rocky Mountains.",
+        belongsToCollection: "Rocky Mountain Animals",
+        image: "/bear2.png",
+        price: 0,
+    }
     
     // after the third, all the rest are sorted by their collection in the gallery
 
@@ -220,9 +227,10 @@ export let artPieces = [
 export let blogPosts = [
     {
         title: "Stampede 2023",
+        // notice that links have no uppercase of spaces or special characters
         link: "stampede-2023",
         teaser: "This past weekend I took part in an event that took my artistic journey to a whole new level: my first live painting experience.",
-        image: "/bear.png",
+        image: "/bear2.png",
         hiddenTags: ["stampede", "calgary", "alberta", "canada", "2023", "rocky mountain animals"],
         body: [
             "This past weekend I took part in an event that took my artistic journey to a whole new level: my first live painting experience. I had the honour of being invited to paint live at the Calgary Stampede, allowing me to showcase my skills in real-time. In this blog post I want to share the story of this unforgettable event and the profound impact it had on my artistic growth!",

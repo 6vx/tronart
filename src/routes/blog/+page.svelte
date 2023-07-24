@@ -13,6 +13,4 @@
     {#each blogPosts as blogPost}
         <BlogCard {blogPost} />
     {/each}
-    
-    
 </div>
