@@ -39,11 +39,13 @@
         /* center everything */
         align-items: center;
         justify-content: center;
+        text-align: center;
         margin: 0px;
         padding: 0px;
     }
     /* set .blog-max to have some margin and padding */
     .blog-max {
+        text-align: left;
         margin: 1em;
         padding: 1em;
         margin-top: 0;
@@ -68,7 +70,6 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-
     }
 
 </style>
