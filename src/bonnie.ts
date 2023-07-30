@@ -75,6 +75,8 @@ export let metadata = {
 
     favicon: '/favicon.png',
 
+    instagramHandle: 'bonniegodinart',
+
     carouselImages: [
         '/bonnieLifestyle1.jpg', 
         '/bonnieLifestyle2.jpg',

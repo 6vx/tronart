@@ -4,6 +4,7 @@
     import { Hamburger } from 'svelte-hamburgers';
     import { metadata } from '../bonnie';
     
+    
     let open;
 
     let email_address = ""
@@ -119,7 +120,7 @@
 <bottombar>
     <div class="flex">
         <div class="flex-auto">
-            <a href="https://www.instagram.com/bonnierose.art/" target="_blank">
+            <a href="https://www.instagram.com/{metadata.instagramHandle}/" target="_blank">
                 <div class="flex">
                     <div class="flex-auto">
                         <p style="text-align: left; margin: 1rem;">Follow me on Instagram</p>
