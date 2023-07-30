@@ -71,5 +71,9 @@
         justify-content: center;
         text-align: center;
     }
+    /* make the image full width */
+    img {
+        width: 100%;
+    }
 
 </style>

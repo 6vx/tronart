@@ -4,7 +4,7 @@
 
 <div class="blog-card">
     <div class="blog-card-image">
-        <img src={blogPost.image} alt={blogPost.title} />
+        <img src={blogPost.thumbnail} alt={blogPost.title} />
     </div>
     <div class="blog-card-content">
         <h2>{blogPost.title}</h2>
