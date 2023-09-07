@@ -91,7 +91,7 @@
         margin: 0;
     }
     .gif-box {
-        background-image: url('/rma.gif');
+        background-image: url('/bear2-high.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

@@ -30,6 +30,16 @@
 <a href="/about">
 <Bio /></a>
 
+<div class="flex">
+    <div class="flex-auto">
+
+        <a href="/contact">
+            <button>
+                CONTACT
+            </button>
+        </a>
+    </div>
+</div>
 
 <style>
     /* p {
@@ -40,4 +50,10 @@
         text-decoration: none;
         color: inherit;
     }    
+    button {
+        background-color: #b579a0;
+        color: white;
+        border: none;
+        padding: 0.5rem;
+    }
 </style>
