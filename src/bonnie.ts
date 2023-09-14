@@ -78,7 +78,7 @@ export let metadata = {
     instagramHandle: 'bonniegodinart',
 
     carouselImages: [
-        '/bonnieLifestyle1.jpg', 
+        '/StampedeBanner.JPG', 
         '/bonnieLifestyle2.jpg',
         '/womanPainting1.jpg',
     ],
@@ -114,7 +114,7 @@ export let collections = [
     {
         collectionName: "Rocky Mountain Animals",
         collectionDescription: "This is a collection of animals I saw in the Rocky Mountains.",
-        collectionImage: "/wolf.png",
+        collectionImage: "/mountainCat.png",
     },
     {
         collectionName: "Regular Animals",
