@@ -46,18 +46,18 @@
   </div>
 
 {#if currentImage === 0}
-    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/bonnieLifestyle1.jpg');">
+    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('{carouselImages[0]}');">
     </div>
 {/if}
 
 
 {#if currentImage === 1}
-    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/bonnieLifestyle2.jpg');">
+    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('{carouselImages[1]}');">
     </div>
 {/if}
 
 {#if currentImage === 2}
-    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('/womanPainting1.jpg');">
+    <div in:fade="{{duration:500, }}"  class="splash2" style="background-image: url('{carouselImages[2]}');">
     </div>
 {/if}
 
