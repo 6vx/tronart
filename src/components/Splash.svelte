@@ -8,19 +8,19 @@
         {
     id: 0,
     name: "Bonnie Godin",
-    imgurl: "/bonnieLifestyle1.jpg",
+    imgurl: carouselImages[0],
     attribution: "Bonnie Godin",
   },
   {
     id: 1,
     name: "Bonnie Godin",
-    imgurl: "/bonnieLifestyle2.jpg",
+    imgurl: carouselImages[1],
     attribution: "Bonnie Godin",
   },
   {
     id: 2,
     name: "Bonnie Godin",
-    imgurl: "/womanPainting1.jpg",
+    imgurl: carouselImages[2],
     attribution: "Bonnie Godin",
   },
     ];
