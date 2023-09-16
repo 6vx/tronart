@@ -1,7 +1,5 @@
 <script>
-
     import { metadata } from '../bonnie.ts'
-
     import { onMount } from 'svelte';
 
     // if mobile size screen set showMobile
@@ -15,20 +13,17 @@
     });
 
 </script>
+
 <div class="bio2">
 
     {#if !showMobile}
     <div class="flex2 bio2reverse">
     <!-- i'm putting the image centered here -->
-        
-        
     </div>
 
     <div class="flex2">
         <div class="flex-auto mobileImage">
             <img src="bonnieLifestyle3.png" alt="">
-
-
         </div>
         <div class="flex-auto blurb">
             <div>
@@ -42,7 +37,7 @@
                     known the other side - to stifle your creativity is only to stifle magic in your life."
                 </p>
 
-                <a href="/about" style="margin-top: 0; padding-top: 0; color: ">More About the Artist →</a>
+                <a href="/about" style="margin-top: 0; padding-top: 0; color: #b579a0">More About the Artist →</a>
             </div>
             </div>
     </div>
