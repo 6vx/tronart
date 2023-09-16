@@ -36,7 +36,7 @@
         <hr>
 
         <h3>I painted this series of Rocky Mountains animals as a way to connect to my local community in Calgary, Alberta.</h3>
-        <h3>     Happily, the series ended up doing just that. Most of the animals were sold in my first art show experience, and the remaining will be showcased at the Calgary Stampede 2023!</h3>
+        <h3>     Happily, the series ended up doing just that. Most of the animals were sold in my first art show experience, and the remaining sold at the Calgary Stampede 2023!</h3>
         <p>Thank you to my local art community for all the support!</p>
     </div>
 

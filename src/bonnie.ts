@@ -78,7 +78,7 @@ export let metadata = {
     instagramHandle: 'bonniegodinart',
 
     carouselImages: [
-        '/StampedeBanner.JPG', 
+        '/StampedeBannerCrop.jpg', 
         '/bonnieLifestyle2.jpg',
         '/womanPainting1.jpg',
     ],

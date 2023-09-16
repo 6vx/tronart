@@ -21,6 +21,9 @@
     <div class="flex-auto date">
         <p>{data.blogPost.date}</p>
     </div>
+    <div class="flex-auto location">
+        <p>{data.blogPost.location}</p>
+    </div>
     <div class="flex-auto blog-max">
         {#each data.blogPost.body as line}
         <p>{line}</p>
@@ -62,8 +65,14 @@
     /* set .date to a darker link color and smaller font size */
     .date {
         color: #b579a0;
-        font-size: 0.8em;
+        font-size: 1em;
     }
+
+    .location {
+        color: #b579a0;
+        font-size: 1em;
+    }
+    
     /* set .date and .backlink to be full width of their container */
     .date, .backlink {
         width: 100%;
