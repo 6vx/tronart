@@ -28,8 +28,17 @@
 <ArtDisplay /></a>
 
 <a href="/about">
-<Bio /></a>
+<Bio />
+<div class="flex">
+    <div class="flex-auto">
+        <a href="/about" style="margin-top: 0; padding-top: 0; color: #b579a0">More About the Artist →</a>
+    
+    </div>
+</div>
+</a>
 
+<br>
+<br>
 
 <div class="flex">
     <div class="flex-auto">

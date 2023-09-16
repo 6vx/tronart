@@ -37,7 +37,6 @@
                     known the other side - to stifle your creativity is only to stifle magic in your life."
                 </p>
 
-                <a href="/about" style="margin-top: 0; padding-top: 0; color: #b579a0">More About the Artist →</a>
             </div>
             </div>
     </div>
@@ -60,7 +59,6 @@
                 known the other side - to stifle your creativity is only to stifle magic in your life."
             </p>
                 
-            <a href="/about" style="margin-top: 0; padding-top: 0; color: #b579a0">More About the Artist →</a>
 
            </div>
         </div>
