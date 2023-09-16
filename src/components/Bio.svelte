@@ -32,17 +32,17 @@
         </div>
         <div class="flex-auto blurb">
             <div>
-                <h1>Welcome To My Gallery</h1>
+                <h1>Welcome To The Gallery</h1>
         
-                <h2>I'm Bonnie Godin - Professional Artist & First Responder</h2>
+                <h2>Bonnie Godin - Professional Artist & First Responder</h2>
                 
                 <p>
-                    What I know for sure about my journey of being an artist is that it was never a choice. 
+                    "What I know for sure about my journey of being an artist is that it was never a choice. 
                     I dedicate time, space and energy toward painting because I've 
-                    known the other side - to stifle your creativity is only to stifle magic in your life.
+                    known the other side - to stifle your creativity is only to stifle magic in your life."
                 </p>
-                    
-                
+
+                <a href="/about" style="margin-top: 0; padding-top: 0; color: ">More About the Artist →</a>
             </div>
             </div>
     </div>
@@ -53,16 +53,16 @@
             </div>
         </div>
         <div class="flex-auto twothird">
-            <h1>Welcome To My Gallery</h1>
+            <h1>Welcome To The Gallery</h1>
     
-            <h2>I'm Bonnie Godin - Professional Artist & First Responder</h2>
+            <h2>Bonnie Godin - Professional Artist & First Responder</h2>
            <div class="blurb">
             
             
             <p>
-                What I know for sure about my journey of being an artist is that it was never a choice. 
+                "What I know for sure about my journey of being an artist is that it was never a choice. 
                 I dedicate time, space and energy toward painting because I've 
-                known the other side - to stifle your creativity is only to stifle magic in your life.
+                known the other side - to stifle your creativity is only to stifle magic in your life."
             </p>
                 
            </div>

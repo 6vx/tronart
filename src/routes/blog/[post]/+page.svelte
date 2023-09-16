@@ -24,10 +24,10 @@
             </div>
         </div>
         <div class="flex-auto date">
-            <p>{data.blogPost.date}</p>
+            <p style="margin: 0; padding: 0;">{data.blogPost.date}</p>
+            <p style="margin: 0; padding: 0;">{data.blogPost.location}</p>
         </div>
         <div class="flex-auto location">
-            <p>{data.blogPost.location}</p>
         </div>
         <div class="flex-auto blog-max">
             <!-- insert the html here -->
@@ -77,11 +77,15 @@
     .date {
         color: #b579a0;
         font-size: 1em;
+        margin: 0;
+        padding: 0;
     }
 
     .location {
         color: #b579a0;
         font-size: 1em;
+        margin: 0;
+        padding: 0;
     }
     
     /* set .date and .backlink to be full width of their container */

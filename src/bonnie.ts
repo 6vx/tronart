@@ -55,7 +55,7 @@ interface ArtPiece {
 export let metadata = {
     title: "Bonnie Godin",
 
-    description: "Welcome To My Gallery",
+    description: "Welcome To The Gallery",
 
     aboutBioImage: '/bonnieLifestyle3.png',
 

@@ -30,6 +30,7 @@
 <a href="/about">
 <Bio /></a>
 
+
 <div class="flex">
     <div class="flex-auto">
 
