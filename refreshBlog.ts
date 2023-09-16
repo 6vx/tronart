@@ -22,6 +22,7 @@ interface Post {
     date: string,
     slug: string,
     hiddentags: string[],
+    location: string,
     thumbnail: string,
     banner: string,
     teaser: string,
@@ -53,6 +54,7 @@ for await (const file of Deno.readDir("./static/posts")) {
             teaser: "",
             content: "",
             html: "",
+            location: "",
         };
         const markdownFile = await Deno.readTextFile(`./static/posts/${file.name}`);
         console.log(markdownFile);
@@ -70,6 +72,7 @@ for await (const file of Deno.readDir("./static/posts")) {
         post.thumbnail = post_data.attrs.thumbnail;
         post.banner = post_data.attrs.banner;
         post.teaser = post_data.attrs.teaser;
+        post.location = post_data.attrs.location;
 
         // convert the content to html from markdown
         post.html = marked.parse(post.content);
@@ -79,4 +82,4 @@ for await (const file of Deno.readDir("./static/posts")) {
 }
 
 // at the end we write everything to a ts file
-await Deno.writeTextFile("./static/posts.ts", JSON.stringify(postList));
+await Deno.writeTextFile("./src/blogPosts.ts", "export let blogPosts2 = " + JSON.stringify(postList));

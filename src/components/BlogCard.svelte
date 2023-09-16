@@ -9,7 +9,7 @@
     <div class="blog-card-content">
         <h2>{blogPost.title}</h2>
         <p>{blogPost.teaser}</p>
-        <a href="/blog/{blogPost.link}">Read more</a>
+        <a href="/blog/{blogPost.slug}">Read more</a>
     </div>
 </div>
 
