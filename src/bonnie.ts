@@ -68,7 +68,7 @@ export let metadata = {
     carouselImages: [
         '/StampedeBannerTwo.jpg', 
         '/bonnieLifestyle2.jpg',
-        '/womanPainting1.jpg',
+        '/YellowFawns.jpg',
     ],
 
     // these tags are used for SEO in the header of pages, comma separated array of strings
