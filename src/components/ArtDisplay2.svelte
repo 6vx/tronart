@@ -54,7 +54,7 @@
     .showcase3 {
         min-width: 40px;
         min-height: 50px;
-        background-image: url('/goat.png');
+        background-image: url('/goatfix.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
