@@ -91,7 +91,7 @@
         margin: 0;
     }
     .gif-box {
-        background-image: url('/bear2-high.png');
+        background-image: url('/StampedeBannerCrop.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
