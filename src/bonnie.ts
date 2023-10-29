@@ -208,7 +208,56 @@ export let artPieces = [
         belongsToCollection: "Rocky Mountain Animals",
         image: "/bear2.png",
         price: 0,
-    }
+    },
+    {
+        title: "",
+        description: "",
+        belongsToCollection: "Rainbow Series",
+        image: "/.png",
+        price: 0,
+    },
+    {
+        title: "",
+        description: "",
+        belongsToCollection: "Rainbow Series",
+        image: "/.png",
+        price: 0,
+    },
+    {
+        title: "",
+        description: "",
+        belongsToCollection: "Rainbow Series",
+        image: "/.png",
+        price: 0,
+    },
+    {
+        title: "",
+        description: "",
+        belongsToCollection: "Rainbow Series",
+        image: "/.png",
+        price: 0,
+    },
+    {
+        title: "",
+        description: "",
+        belongsToCollection: "Rainbow Series",
+        image: "/.png",
+        price: 0,
+    },
+    {
+        title: "",
+        description: "",
+        belongsToCollection: "Rainbow Series",
+        image: "/.png",
+        price: 0,
+    },
+    {
+        title: "",
+        description: "",
+        belongsToCollection: "Rainbow Series",
+        image: "/.png",
+        price: 0,
+    },
     
     // after the third, all the rest are sorted by their collection in the gallery
 

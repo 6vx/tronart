@@ -29,6 +29,13 @@
 <ArtDisplay />
 <ArtDisplay2 /></a>
 
+<div class="flex">
+    <div class="flex-auto">
+        <a href="/rockymountainanimals" style="margin-top: 0; padding-top: 0; color: #b579a0">See The Full Collection →</a>
+    
+    </div>
+</div>
+
 <a href="/about">
 <Bio />
 <div class="flex">
