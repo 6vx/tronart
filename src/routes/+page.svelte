@@ -4,6 +4,7 @@
     import Splash from '../components/Splash.svelte'
     import Bio from '../components/Bio.svelte'
     import ArtDisplay from '../components/ArtDisplay.svelte'
+    import ArtDisplay2 from '../components/ArtDisplay2.svelte'
     import { metadata } from '../bonnie.ts'
 </script>
 
@@ -25,7 +26,8 @@
 </div> -->
 
 <a href="/rockymountainanimals">
-<ArtDisplay /></a>
+<ArtDisplay />
+<ArtDisplay2 /></a>
 
 <a href="/about">
 <Bio />
